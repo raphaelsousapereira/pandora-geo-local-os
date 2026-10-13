@@ -21,6 +21,17 @@ Leia o documento completo:
 
 [PANDORA_GEO_LOCAL_OS.md](PANDORA_GEO_LOCAL_OS.md)
 
+## Motores
+
+| Motor | Arquivo | Função |
+|---|---|---|
+| PANDORA HEADING AUDIT Ω v5.0.0 | [`scripts/pandora_heading_audit.py`](scripts/pandora_heading_audit.py) | Auditoria forense e remediação supervisionada de H1/H2/H3 ([documentação](docs/HEADING_AUDIT.md)) |
+
+```bash
+python scripts/pandora_heading_audit.py audit ./site --json report.json --md report.md
+python -m unittest discover tests
+```
+
 ## Escopo
 
 O sistema cobre:
