@@ -166,6 +166,7 @@ Estrutura recomendada:
     generate_weekly_report.py
     generate_client_report.py
     validate_annotations.py
+    pandora_heading_audit.py        # motor H1/H2/H3 (implementado — docs/HEADING_AUDIT.md)
 
   /outputs/
     /weekly-reports/
