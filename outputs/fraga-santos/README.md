@@ -49,6 +49,8 @@ Entra na cronologia, em "Na mídia e palestras" (cartão com miniatura) e no JSO
 
 **Consistência de nome:** o vídeo de 03/11/2025 chama o sócio de "Nei Fraga"; o site usa "Nei Fernando dos Santos". Para a entidade nas IAs, padronizar o nome nas descrições futuras (ou declarar o nome alternativo no JSON-LD do site com `alternateName`, se for de uso dele).
 
+**BW Business Women:** a Verônica já fez parte da comunidade, mas hoje não faz mais (informado pelo usuário em 14/10/2026). Por isso o BW **não entra** em "Associações" nem em `memberOf`. A entrevista ao BW CAST (03/09/2025) continua como registro histórico de mídia. Se houver datas de entrada e saída, dá para registrar como associação passada (`OrganizationRole` com `startDate`/`endDate`), sem aparecer como vínculo atual.
+
 ## Artigos assinados
 
 | Data | Título | Veículo | Link | Status |
