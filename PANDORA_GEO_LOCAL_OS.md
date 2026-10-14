@@ -170,6 +170,7 @@ Estrutura recomendada:
     pandora_sitemap_audit.py        # motor robots/sitemap/llms.txt (implementado — docs/SITEMAP_AUDIT.md)
     pandora_competitor_omega.py     # motor de concorrentes (implementado — docs/COMPETITOR_AUDIT.md)
     pandora_ads_omega.py            # motor de Google Ads, somente leitura (implementado — docs/ADS_OMEGA.md)
+    pandora_press/                  # sala de imprensa e entidade autoral (implementado — docs/PRESS_SUITE.md)
 
   /outputs/
     /weekly-reports/
