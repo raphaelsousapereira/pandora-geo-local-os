@@ -26,9 +26,11 @@ Leia o documento completo:
 | Motor | Arquivo | Função |
 |---|---|---|
 | PANDORA HEADING AUDIT Ω v5.0.0 | [`scripts/pandora_heading_audit.py`](scripts/pandora_heading_audit.py) | Auditoria forense e remediação supervisionada de H1/H2/H3 ([documentação](docs/HEADING_AUDIT.md)) |
+| PANDORA SITEMAP & LLMS AUDIT Ω v1.0.0 | [`scripts/pandora_sitemap_audit.py`](scripts/pandora_sitemap_audit.py) | robots e bots de IA, sitemaps, saúde de URLs, links internos, llms.txt; gera llms.txt, llms-full.txt e Mapa do site ([documentação](docs/SITEMAP_AUDIT.md)) |
 
 ```bash
 python scripts/pandora_heading_audit.py audit ./site --json report.json --md report.md
+python scripts/pandora_sitemap_audit.py audit https://example.org --json sitemap.json --md sitemap.md
 python -m unittest discover tests
 ```
 

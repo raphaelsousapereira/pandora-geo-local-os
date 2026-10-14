@@ -1,0 +1,2912 @@
+{
+  "engine": "PANDORA SITEMAP & LLMS AUDIT Ω",
+  "version": "1.0.0",
+  "generated_at": "2026-10-14T00:18:41.658371+00:00",
+  "target": "https://raphaelsousapereira.com.br",
+  "score": 630,
+  "max_score": 1000,
+  "dimensions": {
+    "robots": {
+      "score": 140,
+      "max": 150,
+      "deductions": 10,
+      "measured": true
+    },
+    "sitemap": {
+      "score": 205,
+      "max": 250,
+      "deductions": 45,
+      "measured": true
+    },
+    "llms": {
+      "score": 34,
+      "max": 250,
+      "deductions": 216,
+      "measured": true
+    },
+    "url_health": {
+      "score": 179,
+      "max": 250,
+      "deductions": 71,
+      "measured": true,
+      "checked": 53
+    },
+    "linking": {
+      "score": 72,
+      "max": 100,
+      "deductions": 28,
+      "measured": true
+    }
+  },
+  "severity_counts": {
+    "low": 7,
+    "medium": 85,
+    "high": 1
+  },
+  "robots": {
+    "url": "https://raphaelsousapereira.com.br/robots.txt",
+    "status": 200,
+    "captured": true,
+    "sitemaps": [
+      "https://raphaelsousapereira.com.br/sitemap_index.xml"
+    ],
+    "bots": [
+      {
+        "token": "Googlebot",
+        "vendor": "Google",
+        "role": "search",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "Bingbot",
+        "vendor": "Microsoft",
+        "role": "search",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "OAI-SearchBot",
+        "vendor": "OpenAI",
+        "role": "search",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "ChatGPT-User",
+        "vendor": "OpenAI",
+        "role": "search",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "GPTBot",
+        "vendor": "OpenAI",
+        "role": "training",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "Claude-SearchBot",
+        "vendor": "Anthropic",
+        "role": "search",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "Claude-User",
+        "vendor": "Anthropic",
+        "role": "search",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "ClaudeBot",
+        "vendor": "Anthropic",
+        "role": "training",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "PerplexityBot",
+        "vendor": "Perplexity",
+        "role": "search",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "Perplexity-User",
+        "vendor": "Perplexity",
+        "role": "search",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "Google-Extended",
+        "vendor": "Google",
+        "role": "training",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "Applebot",
+        "vendor": "Apple",
+        "role": "search",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "Applebot-Extended",
+        "vendor": "Apple",
+        "role": "training",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "DuckAssistBot",
+        "vendor": "DuckDuckGo",
+        "role": "search",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "MistralAI-User",
+        "vendor": "Mistral",
+        "role": "search",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "meta-externalagent",
+        "vendor": "Meta",
+        "role": "training",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "Amazonbot",
+        "vendor": "Amazon",
+        "role": "search",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "CCBot",
+        "vendor": "Common Crawl",
+        "role": "training",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "Bytespider",
+        "vendor": "ByteDance",
+        "role": "training",
+        "allowed": true,
+        "explicit": false
+      },
+      {
+        "token": "cohere-ai",
+        "vendor": "Cohere",
+        "role": "training",
+        "allowed": true,
+        "explicit": false
+      }
+    ]
+  },
+  "sitemap_files": [
+    {
+      "url": "https://raphaelsousapereira.com.br/sitemap_index.xml",
+      "status": 200,
+      "kind": "sitemapindex",
+      "entries": 4,
+      "bytes": 625
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/post-sitemap.xml",
+      "status": 200,
+      "kind": "urlset",
+      "entries": 2,
+      "bytes": 348
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/page-sitemap.xml",
+      "status": 200,
+      "kind": "urlset",
+      "entries": 52,
+      "bytes": 7498
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/category-sitemap.xml",
+      "status": 200,
+      "kind": "urlset",
+      "entries": 1,
+      "bytes": 231
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/author-sitemap.xml",
+      "status": 200,
+      "kind": "urlset",
+      "entries": 1,
+      "bytes": 235
+    }
+  ],
+  "sitemap_url_count": 55,
+  "llms": {
+    "llms_txt": {
+      "status": 200,
+      "captured": true,
+      "bytes": 1067,
+      "h1": "Raphael Sousa Pereira",
+      "summary": null,
+      "sections": [
+        "Páginas",
+        "Posts",
+        "Categorias",
+        "Optional"
+      ],
+      "links": 9,
+      "generator": "Yoast SEO (automático)",
+      "coverage": 0.115,
+      "missing_from_llms": [
+        "https://raphaelsousapereira.com.br/",
+        "https://raphaelsousapereira.com.br/20-anos-deteccao-spam/",
+        "https://raphaelsousapereira.com.br/20-anos-metricas-usabilidade/",
+        "https://raphaelsousapereira.com.br/20-anos-redes-neurais-recorrentes/",
+        "https://raphaelsousapereira.com.br/a-ia-que-o-ceo-precisa-governar/",
+        "https://raphaelsousapereira.com.br/auditoria-defensiva-ia-sicredi-llm-rag-agentes-governanca/",
+        "https://raphaelsousapereira.com.br/author/raphaelsousapereira/",
+        "https://raphaelsousapereira.com.br/como-avaliar-plataforma-de-monitoramento-de-geo/",
+        "https://raphaelsousapereira.com.br/como-o-mercado-de-moveis-e-decoracao-de-porto-alegre-e-citado/",
+        "https://raphaelsousapereira.com.br/conteudo-e-commodity/",
+        "https://raphaelsousapereira.com.br/crawl-budget-quando-importa-quando-e-ruido/",
+        "https://raphaelsousapereira.com.br/diagnostico-21-erros-seo-geo/",
+        "https://raphaelsousapereira.com.br/drift-linguistico-e-distribucional/",
+        "https://raphaelsousapereira.com.br/economia-de-agentes-pagamentos-comercio-e-contratacao-maquina-a-maquina/",
+        "https://raphaelsousapereira.com.br/enquadramento-de-genero-como-sinal-latente-de-citacao-em-motores-generativos-working-paper/",
+        "https://raphaelsousapereira.com.br/entidade-em-geo-de-string-a-vetor-relacional-em-producao-geo-ia-laboratorio/",
+        "https://raphaelsousapereira.com.br/estudo-citado-fonte-inacessivel-geo/",
+        "https://raphaelsousapereira.com.br/estudo-moveis-planejados-porto-alegre/",
+        "https://raphaelsousapereira.com.br/ferramenta-vs-metodo-linkagem-interna/",
+        "https://raphaelsousapereira.com.br/generative-competitive-intelligence-matrix/",
+        "https://raphaelsousapereira.com.br/geo-para-portais-de-noticias-por-que-paginas-de-autores-nao-bastam-para-a-ia-entender-um-acervo-editorial/",
+        "https://raphaelsousapereira.com.br/geo-score-nao-e-unidade-de-medida/",
+        "https://raphaelsousapereira.com.br/link-como-aresta-de-entidade/",
+        "https://raphaelsousapereira.com.br/mapa-de-perguntas-de-compra-geo/",
+        "https://raphaelsousapereira.com.br/marketing-pessoal-e-construcao-de-referencias-para-respostas-de-inteligencia-artificial/",
+        "https://raphaelsousapereira.com.br/matematica-esquecida-do-pagerank/",
+        "https://raphaelsousapereira.com.br/metricas-de-geo/",
+        "https://raphaelsousapereira.com.br/niveis-seo-tecnico/",
+        "https://raphaelsousapereira.com.br/o-google-esta-perdendo-a-busca-dados-2026/",
+        "https://raphaelsousapereira.com.br/o-que-e-pesquisa-de-geo-e-inteligencia-artificial-no-brasil-e-o-que-significa-ser-pesquisador-nessa-area/",
+        "https://raphaelsousapereira.com.br/o-que-e-taxa-de-citabilidade-em-geo/",
+        "https://raphaelsousapereira.com.br/o-que-estudar-sobre-geo-em-2026-e-2027/",
+        "https://raphaelsousapereira.com.br/orfa-faceta-profundidade-clique/",
+        "https://raphaelsousapereira.com.br/os-6-macrodominios-de-geo-uma-macroarquitetura-para-pesquisa-tecnica-operacao-e-valor-economico-geo-ia/",
+        "https://raphaelsousapereira.com.br/pandora-ia-simbolica/",
+        "https://raphaelsousapereira.com.br/politica-de-conflitos-de-interesse-patrocinio-e-independencia-editorial/",
+        "https://raphaelsousapereira.com.br/politica-de-privacidade/",
+        "https://raphaelsousapereira.com.br/qual-e-a-missao-de-uma-plataforma-de-geo-e-ia-no-brasil-geo-ia-laboratorio/",
+        "https://raphaelsousapereira.com.br/sala-de-imprensa-2/",
+        "https://raphaelsousapereira.com.br/sala-de-imprensa/",
+        "https://raphaelsousapereira.com.br/schema-markup-json-ld-entidades-grafo-conhecimento-geo-2026/",
+        "https://raphaelsousapereira.com.br/search-engineer-2027/",
+        "https://raphaelsousapereira.com.br/seo-tecnico-hands-on/",
+        "https://raphaelsousapereira.com.br/tipos-de-presenca-geo/",
+        "https://raphaelsousapereira.com.br/vector-databases-geo-2026/",
+        "https://raphaelsousapereira.com.br/via-padova/"
+      ]
+    },
+    "llms_full_txt": {
+      "status": 404,
+      "captured": true,
+      "bytes": 0
+    }
+  },
+  "heading_engine": {
+    "available": true,
+    "average_score": 975.92,
+    "pages_scored": 53
+  },
+  "orphans": [
+    "https://raphaelsousapereira.com.br/hello-world/",
+    "https://raphaelsousapereira.com.br/sample-page/",
+    "https://raphaelsousapereira.com.br/via-padova/"
+  ],
+  "linked_not_in_sitemap": [
+    "https://raphaelsousapereira.com.br/2026/08/",
+    "https://raphaelsousapereira.com.br/2026/09/",
+    "https://raphaelsousapereira.com.br/artigos/",
+    "https://raphaelsousapereira.com.br/cirurgia-aparelho-digestivo-porto-alegre/",
+    "https://raphaelsousapereira.com.br/cirurgia-bariatrica-porto-alegre/",
+    "https://raphaelsousapereira.com.br/cirurgia-robotica-diastase-abdominal/",
+    "https://raphaelsousapereira.com.br/cirurgia-robotica-porto-alegre/",
+    "https://raphaelsousapereira.com.br/colunistas/",
+    "https://raphaelsousapereira.com.br/contato/",
+    "https://raphaelsousapereira.com.br/correcoes/",
+    "https://raphaelsousapereira.com.br/diastase-abdominal-porto-alegre/",
+    "https://raphaelsousapereira.com.br/diastase-ou-hernia/",
+    "https://raphaelsousapereira.com.br/diastase-pos-bariatrica/",
+    "https://raphaelsousapereira.com.br/dr-luiz-henrique-bastos-capaverde/",
+    "https://raphaelsousapereira.com.br/fontes-e-evidencias/",
+    "https://raphaelsousapereira.com.br/geo-ia/autoria-e-colunistas/",
+    "https://raphaelsousapereira.com.br/geo-ia/cookies/",
+    "https://raphaelsousapereira.com.br/geo-ia/correcoes/",
+    "https://raphaelsousapereira.com.br/geo-ia/institucional/",
+    "https://raphaelsousapereira.com.br/geo-ia/termos-de-uso/",
+    "https://raphaelsousapereira.com.br/geo-ia/uso-de-inteligencia-artificial/",
+    "https://raphaelsousapereira.com.br/livro-harness-a-camada-invisivel/",
+    "https://raphaelsousapereira.com.br/locais-de-atendimento/",
+    "https://raphaelsousapereira.com.br/metodologia/",
+    "https://raphaelsousapereira.com.br/parede-abdominal/",
+    "https://raphaelsousapereira.com.br/pesquisa-e-metodologia/",
+    "https://raphaelsousapereira.com.br/politica-de-Conflitos-de-interesse/",
+    "https://raphaelsousapereira.com.br/politica-editorial/",
+    "https://raphaelsousapereira.com.br/quando-operar-diastase/",
+    "https://raphaelsousapereira.com.br/recuperacao-cirurgia-diastase/",
+    "https://raphaelsousapereira.com.br/uso-de-inteligencia-artificial/",
+    "https://www.raphaelsousapereira.com.br/",
+    "https://www.raphaelsousapereira.com.br/agentes-sites-citacao-ia-tendencia.html",
+    "https://www.raphaelsousapereira.com.br/auditar-site-nao-e-auditar-entidade",
+    "https://www.raphaelsousapereira.com.br/auditoria-de-geo-pesquisa.html",
+    "https://www.raphaelsousapereira.com.br/caso-site-feito-por-agente-citacao-ia.html",
+    "https://www.raphaelsousapereira.com.br/concorrencia-de-nicho-nao-de-setor",
+    "https://www.raphaelsousapereira.com.br/estudos/",
+    "https://www.raphaelsousapereira.com.br/geo-score-nao-e-unidade-de-medida",
+    "https://www.raphaelsousapereira.com.br/governanca-e-geo-continuo",
+    "https://www.raphaelsousapereira.com.br/mapa-de-perguntas-de-compra-geo",
+    "https://www.raphaelsousapereira.com.br/metodo.html",
+    "https://www.raphaelsousapereira.com.br/paineis-oficiais-de-geo-search-console-bing",
+    "https://www.raphaelsousapereira.com.br/protocolo-auditoria-site-feito-por-agente.html",
+    "https://www.raphaelsousapereira.com.br/publicacoes.html",
+    "https://www.raphaelsousapereira.com.br/serie-cargos-2026/"
+  ],
+  "broken_internal_links": [],
+  "pages": [
+    {
+      "url": "https://raphaelsousapereira.com.br/hello-world/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/hello-world/",
+      "redirects": [],
+      "error": null,
+      "bytes": 91567,
+      "title": "Hello world! - Raphael Sousa Pereira",
+      "titles": 1,
+      "description": "",
+      "og_title": "Hello world! - Raphael Sousa Pereira",
+      "h1": [
+        "Hello world!"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/hello-world/",
+      "noindex": false,
+      "html_tags": 1,
+      "main_count": 1,
+      "base64_bytes": 0,
+      "lastmod": "2026-08-07T15:41:36+00:00",
+      "heading_score": 982,
+      "heading_issues": [
+        "LEVEL_SKIP"
+      ],
+      "internal_links": 66
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/dr-luiz-henrique-capaverde/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/dr-luiz-henrique-capaverde/",
+      "redirects": [],
+      "error": null,
+      "bytes": 149332,
+      "title": "Dr. Luiz Henrique Capaverde - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Informações sobre diástase abdominal, cirurgia da parede abdominal, cirurgia robótica, cirurgia bariátrica e cirurgia do aparelho digestivo em Porto Alegre.",
+      "og_title": "Dr. Luiz Henrique Capaverde - Raphael Sousa Pereira",
+      "h1": [
+        "Dr. Luiz HenriqueCapaverde"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/dr-luiz-henrique-capaverde/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-18T03:34:22+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 88
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/",
+      "redirects": [],
+      "error": null,
+      "bytes": 100128,
+      "title": "GEO IA: laboratório de GEO e IA aplicada à busca - Raphael Sousa Pereira",
+      "titles": 1,
+      "description": "Artigos, estudos e pesquisas técnicas sobre GEO, AI Search, SEO técnico, entidades, citabilidade e LLMs. Laboratório editorial de Raphael Sousa Pereira.",
+      "og_title": "GEO IA: laboratório de GEO e IA aplicada à busca - Raphael Sousa Pereira",
+      "h1": [
+        "GEO IA — O maior Laboratório Técnico de GEO e Inteligência Artificial aplicada à busca do Brasil"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/",
+      "noindex": false,
+      "html_tags": 1,
+      "main_count": 1,
+      "base64_bytes": 0,
+      "lastmod": "2026-10-13T18:43:34+00:00",
+      "heading_score": 1000,
+      "heading_issues": [],
+      "internal_links": 68
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/sample-page/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/sample-page/",
+      "redirects": [],
+      "error": null,
+      "bytes": 74555,
+      "title": "Sample Page - Raphael Sousa Pereira",
+      "titles": 1,
+      "description": "",
+      "og_title": "Sample Page - Raphael Sousa Pereira",
+      "h1": [
+        "Sample Page"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/sample-page/",
+      "noindex": false,
+      "html_tags": 1,
+      "main_count": 1,
+      "base64_bytes": 0,
+      "lastmod": "2026-08-07T15:41:36+00:00",
+      "heading_score": 1000,
+      "heading_issues": [],
+      "internal_links": 59
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/qual-e-a-missao-de-uma-plataforma-de-geo-e-ia-no-brasil-geo-ia-laboratorio/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/qual-e-a-missao-de-uma-plataforma-de-geo-e-ia-no-brasil-geo-ia-laboratorio/",
+      "redirects": [],
+      "error": null,
+      "bytes": 1573203,
+      "title": "Qual é a missão de uma plataforma de GEO e IA no Brasil? | GEO IA Laboratório - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Qual é a missão de uma plataforma de GEO e IA no Brasil? Conheça a missão da GEO IA Laboratório: pesquisa aplicada, evidência, entidades, proveniência, dados e experimentação.",
+      "og_title": "Qual é a missão de uma plataforma de GEO e IA no Brasil? | GEO IA Laboratório - Raphael Sousa Pereira",
+      "h1": [
+        "Qual é a missão de uma plataforma de GEO e IA no Brasil?"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/qual-e-a-missao-de-uma-plataforma-de-geo-e-ia-no-brasil-geo-ia-laboratorio/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 1480584,
+      "lastmod": "2026-08-23T19:33:43+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 57
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/o-que-e-pesquisa-de-geo-e-inteligencia-artificial-no-brasil-e-o-que-significa-ser-pesquisador-nessa-area/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/o-que-e-pesquisa-de-geo-e-inteligencia-artificial-no-brasil-e-o-que-significa-ser-pesquisador-nessa-area/",
+      "redirects": [],
+      "error": null,
+      "bytes": 1576393,
+      "title": "O que é pesquisa de GEO e Inteligência Artificial no Brasil — e o que significa ser pesquisador nessa área? - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "O que é pesquisa de GEO e Inteligência Artificial no Brasil, o que significa ser pesquisador aplicado e como Raphael Sousa Pereira se posiciona nesse campo em 2026.",
+      "og_title": "O que é pesquisa de GEO e Inteligência Artificial no Brasil — e o que significa ser pesquisador nessa área? - Raphael Sousa Pereira",
+      "h1": [
+        "O que é pesquisa de GEO e Inteligência Artificial no Brasil — e o que significa ser pesquisador nessa área?"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/o-que-e-pesquisa-de-geo-e-inteligencia-artificial-no-brasil-e-o-que-significa-ser-pesquisador-nessa-area/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 1480584,
+      "lastmod": "2026-08-23T19:34:28+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 64
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/os-6-macrodominios-de-geo-uma-macroarquitetura-para-pesquisa-tecnica-operacao-e-valor-economico-geo-ia/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/os-6-macrodominios-de-geo-uma-macroarquitetura-para-pesquisa-tecnica-operacao-e-valor-economico-geo-ia/",
+      "redirects": [],
+      "error": null,
+      "bytes": 1582182,
+      "title": "Os 6 Macrodomínios de GEO: uma macroarquitetura para pesquisa, técnica, operação e valor econômico | GEO IA - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Proposta de Raphael Sousa Pereira para organizar GEO em seis macrodomínios: Conceitual, Epistemológico, Científico, Técnico, Operacional e Estratégico-Econômico, com matriz 6x15 e governança transversal.",
+      "og_title": "Os 6 Macrodomínios de GEO: uma macroarquitetura para pesquisa, técnica, operação e valor econômico | GEO IA - Raphael Sousa Pereira",
+      "h1": [
+        "Os 6 Macrodomínios de GEO: uma macroarquitetura para pesquisa, técnica, operação e valor econômico"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/os-6-macrodominios-de-geo-uma-macroarquitetura-para-pesquisa-tecnica-operacao-e-valor-economico-geo-ia/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 1480584,
+      "lastmod": "2026-08-23T20:02:38+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 61
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/geo-para-portais-de-noticias-por-que-paginas-de-autores-nao-bastam-para-a-ia-entender-um-acervo-editorial/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/geo-para-portais-de-noticias-por-que-paginas-de-autores-nao-bastam-para-a-ia-entender-um-acervo-editorial/",
+      "redirects": [],
+      "error": null,
+      "bytes": 2931155,
+      "title": "GEO para Portais de Notícias: por que páginas de autores não bastam para a IA entender um acervo editorial - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Estudo de GEO Editorial sobre autores, inventário semântico, EEIG, AIR, inteligência de entidades, relações verificáveis e simulações de encontrabilidade em sistemas generativos.",
+      "og_title": "GEO para Portais de Notícias: por que páginas de autores não bastam para a IA entender um acervo editorial - Raphael Sousa Pereira",
+      "h1": [
+        "GEO para Portais de Notícias: por que páginas de autores não bastam para a IA entender um acervo editorial"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/geo-para-portais-de-noticias-por-que-paginas-de-autores-nao-bastam-para-a-ia-entender-um-acervo-editorial/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 2824563,
+      "lastmod": "2026-08-23T20:22:52+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 61
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/o-que-e-taxa-de-citabilidade-em-geo/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/o-que-e-taxa-de-citabilidade-em-geo/",
+      "redirects": [],
+      "error": null,
+      "bytes": 1574653,
+      "title": "O que é Taxa de Citabilidade em GEO? - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "O que é Taxa de Citabilidade em GEO, como calcular Citation Rate e por que prompts, motores, retrieval, evidência e complexidade da consulta alteram o resultado.",
+      "og_title": "O que é Taxa de Citabilidade em GEO? - Raphael Sousa Pereira",
+      "h1": [
+        "O que é Taxa de Citabilidade em GEO? Como medir citações, variação de prompts e robustez em respostas de IA"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/o-que-e-taxa-de-citabilidade-em-geo/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 1480584,
+      "lastmod": "2026-08-23T20:34:09+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 61
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/politica-de-privacidade/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/politica-de-privacidade/",
+      "redirects": [],
+      "error": null,
+      "bytes": 89414,
+      "title": "Política de Privacidade - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Política de Privacidade e LGPD da GEO IA: dados pessoais, finalidades, bases legais, direitos dos titulares, segurança, compartilhamento, cookies e canais de contato.",
+      "og_title": "Política de Privacidade - Raphael Sousa Pereira",
+      "h1": [
+        "Política de Privacidade e LGPD da GEO IA"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/politica-de-privacidade/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-08-23T20:40:56+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 65
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/politica-de-conflitos-de-interesse-patrocinio-e-independencia-editorial/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/politica-de-conflitos-de-interesse-patrocinio-e-independencia-editorial/",
+      "redirects": [],
+      "error": null,
+      "bytes": 83983,
+      "title": "Política de Conflitos de Interesse, Patrocínio e Independência Editorial - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Como a GEO IA separa patrocínio, relações comerciais, autoria, pesquisa, rankings, comparações e decisão editorial.",
+      "og_title": "Política de Conflitos de Interesse, Patrocínio e Independência Editorial - Raphael Sousa Pereira",
+      "h1": [
+        "Política de Conflitos de Interesse, Patrocínio e Independência Editorial da GEO IA"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/politica-de-conflitos-de-interesse-patrocinio-e-independencia-editorial/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-08-25T23:01:19+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 62
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/sala-de-imprensa/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/sala-de-imprensa/",
+      "redirects": [],
+      "error": null,
+      "bytes": 87844,
+      "title": "Sala de Imprensa - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Sala de imprensa da GEO IA: papers, livros, metodologias, protocolos, artigos, documentos de governança, fontes e materiais de Raphael Sousa Pereira para jornalistas e pesquisadores.",
+      "og_title": "Sala de Imprensa - Raphael Sousa Pereira",
+      "h1": [
+        "Sala de Imprensa, Pesquisas e Publicações de Raphael Sousa Pereira sobre GEO e Inteligência Artificial"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/sala-de-imprensa/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-08-25T23:05:14+00:00",
+      "heading_score": 957,
+      "heading_issues": [
+        "DUPLICATE_TEXT",
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 57
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/entidade-em-geo-de-string-a-vetor-relacional-em-producao-geo-ia-laboratorio/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/entidade-em-geo-de-string-a-vetor-relacional-em-producao-geo-ia-laboratorio/",
+      "redirects": [],
+      "error": null,
+      "bytes": 82126,
+      "title": "Entidade em GEO: de string a vetor relacional em produção | GEO IA Laboratório - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Capítulo 6, final de Entity Engineering: como os cinco capítulos anteriores se traduzem em prática de produção de GEO — embedding, grafo de conhecimento e recuperação.",
+      "og_title": "Entidade em GEO: de string a vetor relacional em produção | GEO IA Laboratório - Raphael Sousa Pereira",
+      "h1": [
+        "Entidade em GEO: de string a vetor relacional em produção"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/entidade-em-geo-de-string-a-vetor-relacional-em-producao-geo-ia-laboratorio/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-08-26T16:47:52+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 57
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/ferramenta-vs-metodo-linkagem-interna/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/ferramenta-vs-metodo-linkagem-interna/",
+      "redirects": [],
+      "error": null,
+      "bytes": 83357,
+      "title": "ferramenta vs metodo linkagem interna - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Capítulo 5 de Automação em Linkagem Interna: a distinção entre ferramenta comercial e método replicável, e por que só o segundo sobrevive quando o fornecedor muda ou desaparece.",
+      "og_title": "ferramenta vs metodo linkagem interna - Raphael Sousa Pereira",
+      "h1": [
+        "Ferramenta vs. método: o que sobrevive à troca de fornecedor"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/ferramenta-vs-metodo-linkagem-interna/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-08-27T03:28:09+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 57
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/crawl-budget-quando-importa-quando-e-ruido/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/crawl-budget-quando-importa-quando-e-ruido/",
+      "redirects": [],
+      "error": null,
+      "bytes": 82864,
+      "title": "crawl budget quando importa quando e ruido - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Capítulo 4 de Automação em Linkagem Interna: o limiar oficial de porte de site em que crawl budget passa a ser problema real, e a correção de um exagero já cometido nesta série.",
+      "og_title": "crawl budget quando importa quando e ruido - Raphael Sousa Pereira",
+      "h1": [
+        "Crawl budget: quando isso importa, e quando é ruído"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/crawl-budget-quando-importa-quando-e-ruido/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-08-27T03:29:50+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 57
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/orfa-faceta-profundidade-clique/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/orfa-faceta-profundidade-clique/",
+      "redirects": [],
+      "error": null,
+      "bytes": 82759,
+      "title": "orfa faceta profundidade clique - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Capítulo 3 de Automação em Linkagem Interna: os três problemas estruturais que uma auditoria de linkagem precisa diagnosticar antes de qualquer automação, com dado real de mercado.",
+      "og_title": "orfa faceta profundidade clique - Raphael Sousa Pereira",
+      "h1": [
+        "Órfã, faceta e profundidade de clique: os três problemas reais"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/orfa-faceta-profundidade-clique/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-08-27T03:31:36+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 57
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/link-como-aresta-de-entidade/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/link-como-aresta-de-entidade/",
+      "redirects": [],
+      "error": null,
+      "bytes": 82347,
+      "title": "link como aresta de entidade - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Capítulo 2 de Automação em Linkagem Interna: como o vetor de entidade formalizado no livro anterior se aplica à arquitetura de link dentro do mesmo domínio.",
+      "og_title": "link como aresta de entidade - Raphael Sousa Pereira",
+      "h1": [
+        "De link como voto a link como aresta de entidade"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/link-como-aresta-de-entidade/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-08-27T03:33:43+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 57
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/matematica-esquecida-do-pagerank/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/matematica-esquecida-do-pagerank/",
+      "redirects": [],
+      "error": null,
+      "bytes": 83227,
+      "title": "matematica esquecida do pagerank - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Capítulo 1 de Automação em Linkagem Interna: o que o paper original de 1998 realmente diz sobre link como voto, a normalização por link de saída, e por que o conceito nasceu vulnerável ao próprio jogo que criou.",
+      "og_title": "matematica esquecida do pagerank - Raphael Sousa Pereira",
+      "h1": [
+        "A matemática esquecida do PageRank"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/matematica-esquecida-do-pagerank/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-08-27T03:35:27+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 57
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/generative-competitive-intelligence-matrix/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/generative-competitive-intelligence-matrix/",
+      "redirects": [],
+      "error": null,
+      "bytes": 99931,
+      "title": "Generative Competitive Intelligence Matrix - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Uma matriz de decisão ponderada para inteligência competitiva em SEO e GEO, adaptada por Raphael Sousa Pereira da metodologia de Siqueira & Gomi (1999, IPT/USP). Peso × Valor = Resultado, aplicado a entidades e concorrência.",
+      "og_title": "Generative Competitive Intelligence Matrix - Raphael Sousa Pereira",
+      "h1": [
+        "G-CIM: Generative Competitive Intelligence Matrix"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/generative-competitive-intelligence-matrix/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-03T13:08:58+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/pandora-ia-simbolica/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/pandora-ia-simbolica/",
+      "redirects": [],
+      "error": null,
+      "bytes": 97900,
+      "title": "Pandora IA simbolica - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Por que o PANDORA-KG ser IA simbólica (regras, não rede neural) não é segredo nenhum — qualquer programador monta a estrutura. O que não se copia é o método calibrado por trás. Por Raphael Sousa Pereira.",
+      "og_title": "Pandora IA simbolica - Raphael Sousa Pereira",
+      "h1": [
+        "PANDORA É IA SIMBÓLICA: a técnica é fácil, o método é difícil"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/pandora-ia-simbolica/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-03T13:14:32+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/20-anos-metricas-usabilidade/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/20-anos-metricas-usabilidade/",
+      "redirects": [],
+      "error": null,
+      "bytes": 98529,
+      "title": "20 anos metricas usabilidade - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Revisitando ",
+      "og_title": "20 anos metricas usabilidade - Raphael Sousa Pereira",
+      "h1": [
+        "20 ANOS DE MÉTRICAS DE USABILIDADE: o que mudou desde 2006"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/20-anos-metricas-usabilidade/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-03T13:24:23+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 57
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/20-anos-redes-neurais-recorrentes/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/20-anos-redes-neurais-recorrentes/",
+      "redirects": [],
+      "error": null,
+      "bytes": 99628,
+      "title": "20 anos redes neurais recorrentes - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Revisitando ",
+      "og_title": "20 anos redes neurais recorrentes - Raphael Sousa Pereira",
+      "h1": [
+        "20 ANOS DE REDES NEURAIS RECORRENTES: o que mudou desde 2006"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/20-anos-redes-neurais-recorrentes/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-03T13:30:42+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 57
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/20-anos-deteccao-spam/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/20-anos-deteccao-spam/",
+      "redirects": [],
+      "error": null,
+      "bytes": 100022,
+      "title": "20 anos deteccao spam - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Revisitando ",
+      "og_title": "20 anos deteccao spam - Raphael Sousa Pereira",
+      "h1": [
+        "20 ANOS DE DETECÇÃO DE SPAM: o que mudou desde 2006"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/20-anos-deteccao-spam/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-03T13:35:33+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 57
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/conteudo-e-commodity/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/conteudo-e-commodity/",
+      "redirects": [],
+      "error": null,
+      "bytes": 98560,
+      "title": "conteudo e commodity - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "A máquina já produz a maior parte do conteúdo novo da internet. Vida real, lá na rua, é o que ainda precisa provar valor — e poucos conseguem. Por Raphael Sousa Pereira.",
+      "og_title": "conteudo e commodity - Raphael Sousa Pereira",
+      "h1": [
+        "CONTEÚDO É COMMODITY: a máquina já faz — provar valor na vida real é o que poucos conseguem"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/conteudo-e-commodity/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-03T13:39:44+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/tipos-de-presenca-geo/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/tipos-de-presenca-geo/",
+      "redirects": [],
+      "error": null,
+      "bytes": 99137,
+      "title": "Tipos de presença GEO - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Um estudo sobre os 6 estados de presença de marca em respostas de IA — espontânea, induzida, contextual, competitiva, dominante e ausência — e como cada um exige uma estratégia diferente de GEO. Por Raphael Sousa Pereira.",
+      "og_title": "Tipos de presença GEO - Raphael Sousa Pereira",
+      "h1": [
+        "TIPOS DE PRESENÇA: os 6 estados de uma marca numa resposta de IA"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/tipos-de-presenca-geo/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-03T13:44:32+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/search-engineer-2027/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/search-engineer-2027/",
+      "redirects": [],
+      "error": null,
+      "bytes": 102467,
+      "title": "search engineer 2027 - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "O mapa de competências de 21 áreas para o profissional de busca de 2027 — de Information Retrieval a construir seu próprio laboratório de Search. Por Raphael Sousa Pereira.",
+      "og_title": "search engineer 2027 - Raphael Sousa Pereira",
+      "h1": [
+        "SEARCH ENGINEER VS. SEARCH RESEARCHER: o mapa de competências de 2027"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/search-engineer-2027/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-03T13:54:36+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/niveis-seo-tecnico/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/niveis-seo-tecnico/",
+      "redirects": [],
+      "error": null,
+      "bytes": 97755,
+      "title": "niveis seo tecnico - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "De SEO técnico a Search Researcher: os 4 níveis de profundidade, de crawl e indexação até a engenharia reversa experimental de um motor de busca inteiro. Por Raphael Sousa Pereira.",
+      "og_title": "niveis seo tecnico - Raphael Sousa Pereira",
+      "h1": [
+        "OS 4 NÍVEIS DE SEO TÉCNICO: de crawl a engenharia reversa de um motor de busca inteiro"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/niveis-seo-tecnico/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-03T14:04:19+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/diagnostico-21-erros-seo-geo/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/diagnostico-21-erros-seo-geo/",
+      "redirects": [],
+      "error": null,
+      "bytes": 97905,
+      "title": "diagnostico 21 erros seo geo - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Consultoria de diagnóstico técnico hands-on: os 21 problemas que Screaming Frog, Semrush, Ahrefs e Search Console não mostram sozinhos — do mais simples ao mais complexo. Por Raphael Sousa Pereira.",
+      "og_title": "diagnostico 21 erros seo geo - Raphael Sousa Pereira",
+      "h1": [
+        "21 ERROS DE SEO TÉCNICO que ferramenta nenhuma mostra sozinha"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/diagnostico-21-erros-seo-geo/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-03T14:08:57+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/seo-tecnico-hands-on/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/seo-tecnico-hands-on/",
+      "redirects": [],
+      "error": null,
+      "bytes": 96788,
+      "title": "seo tecnico hands on - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Diagnóstico, implementação, validação e monitoramento de SEO técnico — crawling, indexação, arquitetura, JavaScript SEO, performance, migrações e dados estruturados. Por Raphael Sousa Pereira.",
+      "og_title": "seo tecnico hands on - Raphael Sousa Pereira",
+      "h1": [
+        "CONSULTORIA EM SEO TÉCNICO HANDS-ON para entidades"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/seo-tecnico-hands-on/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-03T14:17:47+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/a-ia-que-o-ceo-precisa-governar/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/a-ia-que-o-ceo-precisa-governar/",
+      "redirects": [],
+      "error": null,
+      "bytes": 188777,
+      "title": "A IA que o CEO Precisa Governar - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Raphael Sousa Pereira, especialista em SEO, GEO, inteligência artificial e engenharia de prompt, apresenta um guia executivo sobre governança, risco, conformidade e vantagem competitiva com IA.",
+      "og_title": "A IA que o CEO Precisa Governar - Raphael Sousa Pereira",
+      "h1": [
+        "A IA que o CEO Precisa Governar: como transformar inteligência artificial em vantagem competitiva duradoura"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/a-ia-que-o-ceo-precisa-governar/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-05T14:30:44+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/drift-linguistico-e-distribucional/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/drift-linguistico-e-distribucional/",
+      "redirects": [],
+      "error": null,
+      "bytes": 150217,
+      "title": "Drift Linguístico e Distribucional - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Livro acadêmico sobre Temporal Drift Linguístico e Distribucional em LLMs: como mudanças na linguagem — além da obsolescência de fatos — afetam a percepção de marca em motores generativos. Framework matemático com JSD, KL divergence e métricas de drift semântico. Por Raphael Sousa Pereira — Negócio no Mapa.",
+      "og_title": "Drift Linguístico e Distribucional - Raphael Sousa Pereira",
+      "h1": [
+        "DriftLinguísticoe Distribucional"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/drift-linguistico-e-distribucional/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-07T00:41:29+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/enquadramento-de-genero-como-sinal-latente-de-citacao-em-motores-generativos-working-paper/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/enquadramento-de-genero-como-sinal-latente-de-citacao-em-motores-generativos-working-paper/",
+      "redirects": [],
+      "error": null,
+      "bytes": 91918,
+      "title": "Enquadramento de Gênero como Sinal Latente de Citação em Motores Generativos Working Paper - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Working paper preliminar: hipótese e dados piloto sobre como a flexão de gênero gramatical de uma consulta ('arquiteto' vs. 'arquiteta') altera a taxa de citação de entidades reais em Google Modo IA e ChatGPT, situando o achado na literatura de Generative Engine Optimization (GEO) e viés de gênero em LLMs.",
+      "og_title": "Enquadramento de Gênero como Sinal Latente de Citação em Motores Generativos Working Paper - Raphael Sousa Pereira",
+      "h1": [
+        "Enquadramento de gênero como sinal latente de citação em motores de busca generativos"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/enquadramento-de-genero-como-sinal-latente-de-citacao-em-motores-generativos-working-paper/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 1,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-08T20:47:08+00:00",
+      "heading_score": 1000,
+      "heading_issues": [],
+      "internal_links": 66
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/metricas-de-geo/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/metricas-de-geo/",
+      "redirects": [],
+      "error": null,
+      "bytes": 109766,
+      "title": "metricas de geo - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "A arquitetura de mensuração de 7 níveis que transforma GEO de ",
+      "og_title": "metricas de geo - Raphael Sousa Pereira",
+      "h1": [
+        "MÉTRICAS DE GEO: a arquitetura de mensuração de 7 níveis"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/metricas-de-geo/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-08T20:57:34+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/o-que-estudar-sobre-geo-em-2026-e-2027/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/o-que-estudar-sobre-geo-em-2026-e-2027/",
+      "redirects": [],
+      "error": null,
+      "bytes": 103219,
+      "title": "O QUE ESTUDAR SOBRE GEO EM 2026 E 2027 - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Guia completo dos temas essenciais de Generative Engine Optimization para 2026 e 2027 — de fundamentos de recuperação da informação a protocolos agênticos emergentes — com trilha de leitura ao final. Por Raphael Sousa Pereira.",
+      "og_title": "O QUE ESTUDAR SOBRE GEO EM 2026 E 2027 - Raphael Sousa Pereira",
+      "h1": [
+        "O QUE ESTUDAR SOBRE GEO EM 2026 E 2027: guia completo de temas"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/o-que-estudar-sobre-geo-em-2026-e-2027/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-08T21:04:27+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/auditoria-defensiva-ia-sicredi-llm-rag-agentes-governanca/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/auditoria-defensiva-ia-sicredi-llm-rag-agentes-governanca/",
+      "redirects": [],
+      "error": null,
+      "bytes": 168192,
+      "title": "auditoria defensiva ia sicredi llm rag agentes governanca - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Entenda o que é uma auditoria defensiva de IA, o que o PANDORA CYBER-GENESIS Ω mede em LLMs, RAG e agentes, por que esses dados importam, como contratar uma auditoria e veja o estudo público do Sicredi com 18 controles e score 831/1000.",
+      "og_title": "auditoria defensiva ia sicredi llm rag agentes governanca - Raphael Sousa Pereira",
+      "h1": [
+        "Auditoria defensiva de IA: o que mede, como funciona e o que o estudo público do Sicredi revelou"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/auditoria-defensiva-ia-sicredi-llm-rag-agentes-governanca/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-09T02:23:09+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 61
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/via-padova/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/via-padova/",
+      "redirects": [],
+      "error": null,
+      "bytes": 143750,
+      "title": "Via Pádova - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Via Pádova — móveis e decoração escolhidos para criar ambientes acolhedores, elegantes e pessoais.",
+      "og_title": "Via Pádova - Raphael Sousa Pereira",
+      "h1": [
+        "Móveis queacolhem.Detalhes que ficam."
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/via-padova/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-09T02:43:11+00:00",
+      "heading_score": 957,
+      "heading_issues": [
+        "DUPLICATE_TEXT",
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 64
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/estudo-citado-fonte-inacessivel-geo/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/estudo-citado-fonte-inacessivel-geo/",
+      "redirects": [],
+      "error": null,
+      "bytes": 107479,
+      "title": "estudo citado fonte inacessivel geo - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "A Escala Will — primeiro estudo acadêmico de GEO do Brasil — foi citada em portais de notícias sem que ninguém tenha acessado os dados primários. O repositório OSF exige cadastro. Os sites não linkam o estudo. Raphael Sousa Pereira analisa a falha de verificabilidade que compromete a credibilidade do campo.",
+      "og_title": "estudo citado fonte inacessivel geo - Raphael Sousa Pereira",
+      "h1": [
+        "Estudo Citado,Fonte Inacessível. A falha de transparência que ninguém questiona no GEO"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/estudo-citado-fonte-inacessivel-geo/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 1,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-09T21:29:27+00:00",
+      "heading_score": 1000,
+      "heading_issues": [],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/economia-de-agentes-pagamentos-comercio-e-contratacao-maquina-a-maquina/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/economia-de-agentes-pagamentos-comercio-e-contratacao-maquina-a-maquina/",
+      "redirects": [],
+      "error": null,
+      "bytes": 132611,
+      "title": "Economia de Agentes: Pagamentos, Comércio e Contratação Máquina-a-Máquina - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Guia técnico sobre a economia de agentes de IA: protocolos de pagamento (AP2, ACP, x402, MPP), identidade e reputação on-chain (ERC-8004), mercados de contratação agente-a-agente, ranqueamento em compras por IA (Agentic Commerce Optimization), vulnerabilidades de segurança documentadas, fraude, escrow, arquitetura de produção, propriedade intelectual e roteiro de implementação de 18 meses. Por Raphael Sousa Pereira, especialista em GEO.",
+      "og_title": "Economia de Agentes: Pagamentos, Comércio e Contratação Máquina-a-Máquina - Raphael Sousa Pereira",
+      "h1": [
+        "Economia de Agentes: Pagamentos, Comércio e Contratação Máquina-a-Máquina"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/economia-de-agentes-pagamentos-comercio-e-contratacao-maquina-a-maquina/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-09T21:47:04+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/como-o-mercado-de-moveis-e-decoracao-de-porto-alegre-e-citado/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/como-o-mercado-de-moveis-e-decoracao-de-porto-alegre-e-citado/",
+      "redirects": [],
+      "error": null,
+      "bytes": 103885,
+      "title": "Como o mercado de móveis e decoração de Porto Alegre é citado - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Diagnóstico de mercado independente medindo a presença citacional de lojas de móveis e decoração de Porto Alegre em Google Modo IA e ChatGPT, capturado antes do lançamento da presença digital própria da Via Pádova Móveis e Decoração. Documento interno / baseline de referência.",
+      "og_title": "Como o mercado de móveis e decoração de Porto Alegre é citado - Raphael Sousa Pereira",
+      "h1": [
+        "Como o mercado de móveis e decoração de Porto Alegre é citado hoje por motores de busca generativos"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/como-o-mercado-de-moveis-e-decoracao-de-porto-alegre-e-citado/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 1,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-11T13:15:47+00:00",
+      "heading_score": 964,
+      "heading_issues": [
+        "DUPLICATE_TEXT",
+        "LEVEL_SKIP"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/",
+      "redirects": [],
+      "error": null,
+      "bytes": 140115,
+      "title": "vector databases geo 2026 - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Vector Databases em 2026: embeddings, semantic search, ANN, HNSW, hybrid search, filtered retrieval e GEO por Raphael Sousa Pereira.",
+      "og_title": "vector databases geo 2026 - Raphael Sousa Pereira",
+      "h1": [
+        "Vector Databases em 2026: como embeddings viram infraestrutura de busca para IA e GEO"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-13T19:42:58+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 73
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/schema-markup-json-ld-entidades-grafo-conhecimento-geo-2026/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/schema-markup-json-ld-entidades-grafo-conhecimento-geo-2026/",
+      "redirects": [],
+      "error": null,
+      "bytes": 182912,
+      "title": "schema markup json ld Entidades grafo conhecimento geo 2026 - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Guia aprofundado de Schema Markup em 2026: JSON-LD, @id, @graph, entidades, parity conteúdo-schema, Entity Graph Coherence, auditoria e GEO por Raphael Sousa Pereira.",
+      "og_title": "schema markup json ld Entidades grafo conhecimento geo 2026 - Raphael Sousa Pereira",
+      "h1": [
+        "Schema Markup Avançado em 2026: JSON-LD, entidades e grafos de conhecimento para SEO e GEO"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/schema-markup-json-ld-entidades-grafo-conhecimento-geo-2026/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-13T20:00:26+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 72
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/marketing-pessoal-e-construcao-de-referencias-para-respostas-de-inteligencia-artificial/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/marketing-pessoal-e-construcao-de-referencias-para-respostas-de-inteligencia-artificial/",
+      "redirects": [],
+      "error": null,
+      "bytes": 109730,
+      "title": "Marketing pessoal e construção de referências para respostas de inteligência artificial - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Como integrar reputação profissional e conhecimento verificável sem confundir visibilidade com citação",
+      "og_title": "Marketing pessoal e construção de referências para respostas de inteligência artificial - Raphael Sousa Pereira",
+      "h1": [
+        "Marketing pessoal e construção de referências para respostas de inteligência artificial",
+        "Marketing pessoal e construção de referências para respostas de inteligência artificial"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/marketing-pessoal-e-construcao-de-referencias-para-respostas-de-inteligencia-artificial/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-13T20:43:28+00:00",
+      "heading_score": 932,
+      "heading_issues": [
+        "DUPLICATE_TEXT",
+        "MULTIPLE_H1",
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 56
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/sala-de-imprensa-2/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/sala-de-imprensa-2/",
+      "redirects": [],
+      "error": null,
+      "bytes": 102009,
+      "title": "Sala de imprensa - Raphael Sousa Pereira",
+      "titles": 1,
+      "description": "",
+      "og_title": "Sala de imprensa - Raphael Sousa Pereira",
+      "h1": [
+        "Sala de Imprensa, Pesquisas e Publicações de Raphael Sousa Pereira sobre GEO e Inteligência Artificial"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/sala-de-imprensa-2/",
+      "noindex": false,
+      "html_tags": 1,
+      "main_count": 1,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-25T16:32:34+00:00",
+      "heading_score": 982,
+      "heading_issues": [
+        "DUPLICATE_TEXT"
+      ],
+      "internal_links": 66
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/estudo-moveis-planejados-porto-alegre/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/estudo-moveis-planejados-porto-alegre/",
+      "redirects": [],
+      "error": null,
+      "bytes": 95863,
+      "title": "Estudo Moveis planejados porto alegre - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Estudo com 29 lojas de móveis planejados em Porto Alegre: lojas de rede herdam a reputação nacional da fábrica (9,5 no Google local contra 5,7 no Reclame Aqui) e poucas informam quem responde pela garantia.",
+      "og_title": "Estudo Moveis planejados porto alegre - Raphael Sousa Pereira",
+      "h1": [
+        "Quem responde pela sua loja de móveis planejados?"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/estudo-moveis-planejados-porto-alegre/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 1,
+      "base64_bytes": 0,
+      "lastmod": "2026-09-26T02:36:27+00:00",
+      "heading_score": 1000,
+      "heading_issues": [],
+      "internal_links": 58
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/como-avaliar-plataforma-de-monitoramento-de-geo/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/como-avaliar-plataforma-de-monitoramento-de-geo/",
+      "redirects": [],
+      "error": null,
+      "bytes": 109451,
+      "title": "como avaliar plataforma de monitoramento de geo - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Seis perguntas para avaliar plataformas de monitoramento de GEO antes de contratar, e como plataforma, especialista e consultor podem trabalhar em conjunto sem que um substitua o outro.",
+      "og_title": "como avaliar plataforma de monitoramento de geo - Raphael Sousa Pereira",
+      "h1": [
+        "Como avaliar uma plataforma de monitoramento de GEO: seis perguntas antes de contratar"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/como-avaliar-plataforma-de-monitoramento-de-geo/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-10-02T23:34:02+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 67
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/o-google-esta-perdendo-a-busca-dados-2026/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/o-google-esta-perdendo-a-busca-dados-2026/",
+      "redirects": [],
+      "error": null,
+      "bytes": 108407,
+      "title": "o google esta perdendo a busca dados 2026 - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Participação do Google estável perto de 90%, chatbots crescendo em uso e quase ausentes nos cliques. Por que os números parecem contraditórios, quais circulam sem conferência e o que isso muda para GEO.",
+      "og_title": "o google esta perdendo a busca dados 2026 - Raphael Sousa Pereira",
+      "h1": [
+        "O Google está perdendo a busca?"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/o-google-esta-perdendo-a-busca-dados-2026/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-10-02T23:48:25+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 67
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/geo-score-nao-e-unidade-de-medida/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/geo-score-nao-e-unidade-de-medida/",
+      "redirects": [],
+      "error": null,
+      "bytes": 107684,
+      "title": "geo score nao e unidade de medida - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Auditoria de duas ferramentas públicas de GEO Score: notas que não concordam, a parte de IA igual para todos, uma nota publicada após acesso negado e planos de ação que não dependem do diagnóstico.",
+      "og_title": "geo score nao e unidade de medida - Raphael Sousa Pereira",
+      "h1": [
+        "GEO Score não é unidade de medida"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/geo-score-nao-e-unidade-de-medida/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-10-03T01:19:42+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 62
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/mapa-de-perguntas-de-compra-geo/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/mapa-de-perguntas-de-compra-geo/",
+      "redirects": [],
+      "error": null,
+      "bytes": 115854,
+      "title": "mapa de perguntas de compra geo - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Método para mapear em quais perguntas de compra uma empresa é citada por ChatGPT, Gemini, Perplexity e Modo IA, classificar cada resposta e diagnosticar as ausências, com dois casos reais e a autoauditoria do autor.",
+      "og_title": "mapa de perguntas de compra geo - Raphael Sousa Pereira",
+      "h1": [
+        "Em quais perguntas de compra sua empresa aparece na IA, e o que a tira das outras?"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/mapa-de-perguntas-de-compra-geo/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-10-03T01:31:50+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 65
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/",
+      "redirects": [],
+      "error": null,
+      "bytes": 99042,
+      "title": "Publicações em SEO GEO - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Preprints com DOI, protocolos de medição, livros e estudos de mercado de Raphael Sousa Pereira sobre Generative Engine Optimization (GEO) e citação de marcas por modelos de linguagem.",
+      "og_title": "Publicações em SEO GEO - Raphael Sousa Pereira",
+      "h1": [
+        "Pesquisa sobre GEO e citação de marcas por IA"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-10-05T14:49:09+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 79
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/agentes-sites-citacao-ia-tendencia/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/agentes-sites-citacao-ia-tendencia/",
+      "redirects": [],
+      "error": null,
+      "bytes": 94697,
+      "title": "agentes sites citacao ia tendencia - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "O que são os agentes que constroem sites para citação por IA, o tamanho da alta em 2026, o que os estudos dizem sobre a qualidade e onde a estratégia quebra.",
+      "og_title": "agentes sites citacao ia tendencia - Raphael Sousa Pereira",
+      "h1": [
+        "Agentes que fazem sites para serem citados por IA"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/agentes-sites-citacao-ia-tendencia/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-10-05T14:52:00+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 80
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/protocolo-auditoria-site-feito-por-agente/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/protocolo-auditoria-site-feito-por-agente/",
+      "redirects": [],
+      "error": null,
+      "bytes": 89499,
+      "title": "Protocolo auditoria site feito por agente - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Protocolo em oito passos para auditar sites construídos por agentes de IA para citação: código-fonte, carimbo temporal, parágrafos citáveis, pessoa responsável, registros externos e testes nos motores.",
+      "og_title": "Protocolo auditoria site feito por agente - Raphael Sousa Pereira",
+      "h1": [
+        "Como auditar um site feito por agente para citação"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/protocolo-auditoria-site-feito-por-agente/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-10-05T15:06:10+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 66
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/engenheiro-de-ia-ai-engineer-guia-2026-2027/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/engenheiro-de-ia-ai-engineer-guia-2026-2027/",
+      "redirects": [],
+      "error": null,
+      "bytes": 122031,
+      "title": "engenheiro de ia ai engineer guia 2026 2027 - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Guia de referência sobre o cargo de Engenheiro de IA (AI Engineer) em 2026 e 2027: origem do termo, o que faz, competências, demanda e salários no Brasil e no mundo, distorções do mercado e cenários para 2027.",
+      "og_title": "engenheiro de ia ai engineer guia 2026 2027 - Raphael Sousa Pereira",
+      "h1": [
+        "Engenheiro de IA (AI Engineer) em 2026 e 2027: o que faz, quanto ganha no Brasil e no mundo e o que esperar do cargo"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/engenheiro-de-ia-ai-engineer-guia-2026-2027/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-10-11T15:18:31+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 86
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/auditoria-lgpd-agencias-marketing-brasil-2026/",
+      "status": 200,
+      "captured": true,
+      "final_url": "https://raphaelsousapereira.com.br/auditoria-lgpd-agencias-marketing-brasil-2026/",
+      "redirects": [],
+      "error": null,
+      "bytes": 111161,
+      "title": "auditoria lgpd agencias marketing brasil 2026 - Raphael Sousa Pereira",
+      "titles": 2,
+      "description": "Auditoria de 50 agências de marketing no Brasil (out/2026): 83% têm política de privacidade, mas só 32% publicam o encarregado de dados e 1 em 10 formulários avisa sobre privacidade. Mínimo legal x boa prática.",
+      "og_title": "auditoria lgpd agencias marketing brasil 2026 - Raphael Sousa Pereira",
+      "h1": [
+        "LGPD nos sites das agências de marketing no Brasil: o que 50 agências publicam — e o que falta"
+      ],
+      "lang": "pt-BR",
+      "canonical": "https://raphaelsousapereira.com.br/auditoria-lgpd-agencias-marketing-brasil-2026/",
+      "noindex": false,
+      "html_tags": 2,
+      "main_count": 2,
+      "base64_bytes": 0,
+      "lastmod": "2026-10-12T02:55:06+00:00",
+      "heading_score": 975,
+      "heading_issues": [
+        "MULTIPLE_MAIN"
+      ],
+      "internal_links": 59
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/category/uncategorized/",
+      "status": null,
+      "captured": false,
+      "final_url": "https://raphaelsousapereira.com.br/category/uncategorized/",
+      "redirects": [],
+      "error": "not captured",
+      "bytes": 0,
+      "internal_links": 0
+    },
+    {
+      "url": "https://raphaelsousapereira.com.br/author/raphaelsousapereira/",
+      "status": null,
+      "captured": false,
+      "final_url": "https://raphaelsousapereira.com.br/author/raphaelsousapereira/",
+      "redirects": [],
+      "error": "not captured",
+      "bytes": 0,
+      "internal_links": 0
+    }
+  ],
+  "issues": [
+    {
+      "code": "ROBOTS_NO_AI_POLICY",
+      "severity": "low",
+      "dimension": "robots",
+      "message": "Nenhum bot de IA citado explicitamente; política para IA fica implícita (herdada de *)",
+      "url": "https://raphaelsousapereira.com.br/robots.txt",
+      "evidence": null
+    },
+    {
+      "code": "SITEMAP_DUPLICATE_URLS",
+      "severity": "medium",
+      "dimension": "sitemap",
+      "message": "URLs repetidas nos sitemaps",
+      "url": null,
+      "evidence": [
+        "https://raphaelsousapereira.com.br/dr-luiz-henrique-capaverde/"
+      ]
+    },
+    {
+      "code": "DEFAULT_CONTENT_PUBLISHED",
+      "severity": "medium",
+      "dimension": "sitemap",
+      "message": "Conteúdo padrão do CMS publicado e listado no sitemap",
+      "url": null,
+      "evidence": [
+        "https://raphaelsousapereira.com.br/hello-world/",
+        "https://raphaelsousapereira.com.br/sample-page/",
+        "https://raphaelsousapereira.com.br/category/uncategorized/"
+      ]
+    },
+    {
+      "code": "MISSING_META_DESCRIPTION",
+      "severity": "low",
+      "dimension": "url_health",
+      "message": "Meta description ausente",
+      "url": "https://raphaelsousapereira.com.br/hello-world/",
+      "evidence": null
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/dr-luiz-henrique-capaverde/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "MISSING_META_DESCRIPTION",
+      "severity": "low",
+      "dimension": "url_health",
+      "message": "Meta description ausente",
+      "url": "https://raphaelsousapereira.com.br/sample-page/",
+      "evidence": null
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/qual-e-a-missao-de-uma-plataforma-de-geo-e-ia-no-brasil-geo-ia-laboratorio/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "HEAVY_HTML",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "HTML acima de 1 MB",
+      "url": "https://raphaelsousapereira.com.br/qual-e-a-missao-de-uma-plataforma-de-geo-e-ia-no-brasil-geo-ia-laboratorio/",
+      "evidence": {
+        "bytes": 1573203,
+        "base64_bytes": 1480584
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/o-que-e-pesquisa-de-geo-e-inteligencia-artificial-no-brasil-e-o-que-significa-ser-pesquisador-nessa-area/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "HEAVY_HTML",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "HTML acima de 1 MB",
+      "url": "https://raphaelsousapereira.com.br/o-que-e-pesquisa-de-geo-e-inteligencia-artificial-no-brasil-e-o-que-significa-ser-pesquisador-nessa-area/",
+      "evidence": {
+        "bytes": 1576393,
+        "base64_bytes": 1480584
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/os-6-macrodominios-de-geo-uma-macroarquitetura-para-pesquisa-tecnica-operacao-e-valor-economico-geo-ia/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "HEAVY_HTML",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "HTML acima de 1 MB",
+      "url": "https://raphaelsousapereira.com.br/os-6-macrodominios-de-geo-uma-macroarquitetura-para-pesquisa-tecnica-operacao-e-valor-economico-geo-ia/",
+      "evidence": {
+        "bytes": 1582182,
+        "base64_bytes": 1480584
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/geo-para-portais-de-noticias-por-que-paginas-de-autores-nao-bastam-para-a-ia-entender-um-acervo-editorial/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "HEAVY_HTML",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "HTML acima de 1 MB",
+      "url": "https://raphaelsousapereira.com.br/geo-para-portais-de-noticias-por-que-paginas-de-autores-nao-bastam-para-a-ia-entender-um-acervo-editorial/",
+      "evidence": {
+        "bytes": 2931155,
+        "base64_bytes": 2824563
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/o-que-e-taxa-de-citabilidade-em-geo/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "HEAVY_HTML",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "HTML acima de 1 MB",
+      "url": "https://raphaelsousapereira.com.br/o-que-e-taxa-de-citabilidade-em-geo/",
+      "evidence": {
+        "bytes": 1574653,
+        "base64_bytes": 1480584
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/politica-de-privacidade/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/politica-de-conflitos-de-interesse-patrocinio-e-independencia-editorial/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/sala-de-imprensa/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/entidade-em-geo-de-string-a-vetor-relacional-em-producao-geo-ia-laboratorio/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/ferramenta-vs-metodo-linkagem-interna/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/ferramenta-vs-metodo-linkagem-interna/",
+      "evidence": "ferramenta vs metodo linkagem interna - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/crawl-budget-quando-importa-quando-e-ruido/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/crawl-budget-quando-importa-quando-e-ruido/",
+      "evidence": "crawl budget quando importa quando e ruido - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/orfa-faceta-profundidade-clique/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/orfa-faceta-profundidade-clique/",
+      "evidence": "orfa faceta profundidade clique - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/link-como-aresta-de-entidade/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/link-como-aresta-de-entidade/",
+      "evidence": "link como aresta de entidade - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/matematica-esquecida-do-pagerank/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/matematica-esquecida-do-pagerank/",
+      "evidence": "matematica esquecida do pagerank - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/generative-competitive-intelligence-matrix/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/pandora-ia-simbolica/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/20-anos-metricas-usabilidade/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/20-anos-metricas-usabilidade/",
+      "evidence": "20 anos metricas usabilidade - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/20-anos-redes-neurais-recorrentes/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/20-anos-redes-neurais-recorrentes/",
+      "evidence": "20 anos redes neurais recorrentes - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/20-anos-deteccao-spam/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/20-anos-deteccao-spam/",
+      "evidence": "20 anos deteccao spam - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/conteudo-e-commodity/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/conteudo-e-commodity/",
+      "evidence": "conteudo e commodity - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/tipos-de-presenca-geo/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/search-engineer-2027/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/search-engineer-2027/",
+      "evidence": "search engineer 2027 - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/niveis-seo-tecnico/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/niveis-seo-tecnico/",
+      "evidence": "niveis seo tecnico - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/diagnostico-21-erros-seo-geo/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/diagnostico-21-erros-seo-geo/",
+      "evidence": "diagnostico 21 erros seo geo - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/seo-tecnico-hands-on/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/seo-tecnico-hands-on/",
+      "evidence": "seo tecnico hands on - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/a-ia-que-o-ceo-precisa-governar/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/drift-linguistico-e-distribucional/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/enquadramento-de-genero-como-sinal-latente-de-citacao-em-motores-generativos-working-paper/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 1
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/metricas-de-geo/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/metricas-de-geo/",
+      "evidence": "metricas de geo - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/o-que-estudar-sobre-geo-em-2026-e-2027/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/auditoria-defensiva-ia-sicredi-llm-rag-agentes-governanca/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/auditoria-defensiva-ia-sicredi-llm-rag-agentes-governanca/",
+      "evidence": "auditoria defensiva ia sicredi llm rag agentes governanca - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/via-padova/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/estudo-citado-fonte-inacessivel-geo/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 1
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/estudo-citado-fonte-inacessivel-geo/",
+      "evidence": "estudo citado fonte inacessivel geo - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/economia-de-agentes-pagamentos-comercio-e-contratacao-maquina-a-maquina/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/como-o-mercado-de-moveis-e-decoracao-de-porto-alegre-e-citado/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 1
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/",
+      "evidence": "vector databases geo 2026 - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/schema-markup-json-ld-entidades-grafo-conhecimento-geo-2026/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/marketing-pessoal-e-construcao-de-referencias-para-respostas-de-inteligencia-artificial/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "MISSING_META_DESCRIPTION",
+      "severity": "low",
+      "dimension": "url_health",
+      "message": "Meta description ausente",
+      "url": "https://raphaelsousapereira.com.br/sala-de-imprensa-2/",
+      "evidence": null
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/estudo-moveis-planejados-porto-alegre/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 1
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/como-avaliar-plataforma-de-monitoramento-de-geo/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/como-avaliar-plataforma-de-monitoramento-de-geo/",
+      "evidence": "como avaliar plataforma de monitoramento de geo - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/o-google-esta-perdendo-a-busca-dados-2026/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/o-google-esta-perdendo-a-busca-dados-2026/",
+      "evidence": "o google esta perdendo a busca dados 2026 - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/geo-score-nao-e-unidade-de-medida/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/geo-score-nao-e-unidade-de-medida/",
+      "evidence": "geo score nao e unidade de medida - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/mapa-de-perguntas-de-compra-geo/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/mapa-de-perguntas-de-compra-geo/",
+      "evidence": "mapa de perguntas de compra geo - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/agentes-sites-citacao-ia-tendencia/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/agentes-sites-citacao-ia-tendencia/",
+      "evidence": "agentes sites citacao ia tendencia - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/protocolo-auditoria-site-feito-por-agente/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/engenheiro-de-ia-ai-engineer-guia-2026-2027/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/engenheiro-de-ia-ai-engineer-guia-2026-2027/",
+      "evidence": "engenheiro de ia ai engineer guia 2026 2027 - Raphael Sousa Pereira"
+    },
+    {
+      "code": "NESTED_HTML_DOCUMENT",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "Documento HTML aninhado (vários <html>/<title>): metadados ambíguos para crawlers",
+      "url": "https://raphaelsousapereira.com.br/auditoria-lgpd-agencias-marketing-brasil-2026/",
+      "evidence": {
+        "html": 2,
+        "title": 2,
+        "main": 2
+      }
+    },
+    {
+      "code": "TITLE_SLUG_LIKE",
+      "severity": "medium",
+      "dimension": "url_health",
+      "message": "<title> é só o slug (minúsculo, sem acento): rótulo pobre na SERP e nas respostas de IA",
+      "url": "https://raphaelsousapereira.com.br/auditoria-lgpd-agencias-marketing-brasil-2026/",
+      "evidence": "auditoria lgpd agencias marketing brasil 2026 - Raphael Sousa Pereira"
+    },
+    {
+      "code": "ORPHAN_URLS",
+      "severity": "medium",
+      "dimension": "linking",
+      "message": "3 URLs do sitemap sem link interno a partir das páginas checadas",
+      "url": null,
+      "evidence": [
+        "https://raphaelsousapereira.com.br/hello-world/",
+        "https://raphaelsousapereira.com.br/sample-page/",
+        "https://raphaelsousapereira.com.br/via-padova/"
+      ]
+    },
+    {
+      "code": "LINKED_NOT_IN_SITEMAP",
+      "severity": "low",
+      "dimension": "linking",
+      "message": "46 URLs internas linkadas que não estão no sitemap",
+      "url": null,
+      "evidence": [
+        "https://raphaelsousapereira.com.br/2026/08/",
+        "https://raphaelsousapereira.com.br/2026/09/",
+        "https://raphaelsousapereira.com.br/artigos/",
+        "https://raphaelsousapereira.com.br/cirurgia-aparelho-digestivo-porto-alegre/",
+        "https://raphaelsousapereira.com.br/cirurgia-bariatrica-porto-alegre/",
+        "https://raphaelsousapereira.com.br/cirurgia-robotica-diastase-abdominal/",
+        "https://raphaelsousapereira.com.br/cirurgia-robotica-porto-alegre/",
+        "https://raphaelsousapereira.com.br/colunistas/",
+        "https://raphaelsousapereira.com.br/contato/",
+        "https://raphaelsousapereira.com.br/correcoes/",
+        "https://raphaelsousapereira.com.br/diastase-abdominal-porto-alegre/",
+        "https://raphaelsousapereira.com.br/diastase-ou-hernia/",
+        "https://raphaelsousapereira.com.br/diastase-pos-bariatrica/",
+        "https://raphaelsousapereira.com.br/dr-luiz-henrique-bastos-capaverde/",
+        "https://raphaelsousapereira.com.br/fontes-e-evidencias/",
+        "https://raphaelsousapereira.com.br/geo-ia/autoria-e-colunistas/",
+        "https://raphaelsousapereira.com.br/geo-ia/cookies/",
+        "https://raphaelsousapereira.com.br/geo-ia/correcoes/",
+        "https://raphaelsousapereira.com.br/geo-ia/institucional/",
+        "https://raphaelsousapereira.com.br/geo-ia/termos-de-uso/",
+        "https://raphaelsousapereira.com.br/geo-ia/uso-de-inteligencia-artificial/",
+        "https://raphaelsousapereira.com.br/livro-harness-a-camada-invisivel/",
+        "https://raphaelsousapereira.com.br/locais-de-atendimento/",
+        "https://raphaelsousapereira.com.br/metodologia/",
+        "https://raphaelsousapereira.com.br/parede-abdominal/",
+        "https://raphaelsousapereira.com.br/pesquisa-e-metodologia/",
+        "https://raphaelsousapereira.com.br/politica-de-Conflitos-de-interesse/",
+        "https://raphaelsousapereira.com.br/politica-editorial/",
+        "https://raphaelsousapereira.com.br/quando-operar-diastase/",
+        "https://raphaelsousapereira.com.br/recuperacao-cirurgia-diastase/",
+        "https://raphaelsousapereira.com.br/uso-de-inteligencia-artificial/",
+        "https://www.raphaelsousapereira.com.br/",
+        "https://www.raphaelsousapereira.com.br/agentes-sites-citacao-ia-tendencia.html",
+        "https://www.raphaelsousapereira.com.br/auditar-site-nao-e-auditar-entidade",
+        "https://www.raphaelsousapereira.com.br/auditoria-de-geo-pesquisa.html",
+        "https://www.raphaelsousapereira.com.br/caso-site-feito-por-agente-citacao-ia.html",
+        "https://www.raphaelsousapereira.com.br/concorrencia-de-nicho-nao-de-setor",
+        "https://www.raphaelsousapereira.com.br/estudos/",
+        "https://www.raphaelsousapereira.com.br/geo-score-nao-e-unidade-de-medida",
+        "https://www.raphaelsousapereira.com.br/governanca-e-geo-continuo",
+        "https://www.raphaelsousapereira.com.br/mapa-de-perguntas-de-compra-geo",
+        "https://www.raphaelsousapereira.com.br/metodo.html",
+        "https://www.raphaelsousapereira.com.br/paineis-oficiais-de-geo-search-console-bing",
+        "https://www.raphaelsousapereira.com.br/protocolo-auditoria-site-feito-por-agente.html",
+        "https://www.raphaelsousapereira.com.br/publicacoes.html",
+        "https://www.raphaelsousapereira.com.br/serie-cargos-2026/"
+      ]
+    },
+    {
+      "code": "INTERNAL_LINK_HOST_VARIANT",
+      "severity": "medium",
+      "dimension": "linking",
+      "message": "15 links internos apontam para outra variante de host (www/não-www): custam redirect e podem quebrar",
+      "url": null,
+      "evidence": [
+        "https://www.raphaelsousapereira.com.br/",
+        "https://www.raphaelsousapereira.com.br/agentes-sites-citacao-ia-tendencia.html",
+        "https://www.raphaelsousapereira.com.br/auditar-site-nao-e-auditar-entidade",
+        "https://www.raphaelsousapereira.com.br/auditoria-de-geo-pesquisa.html",
+        "https://www.raphaelsousapereira.com.br/caso-site-feito-por-agente-citacao-ia.html",
+        "https://www.raphaelsousapereira.com.br/concorrencia-de-nicho-nao-de-setor",
+        "https://www.raphaelsousapereira.com.br/estudos/",
+        "https://www.raphaelsousapereira.com.br/geo-score-nao-e-unidade-de-medida",
+        "https://www.raphaelsousapereira.com.br/governanca-e-geo-continuo",
+        "https://www.raphaelsousapereira.com.br/mapa-de-perguntas-de-compra-geo",
+        "https://www.raphaelsousapereira.com.br/metodo.html",
+        "https://www.raphaelsousapereira.com.br/paineis-oficiais-de-geo-search-console-bing",
+        "https://www.raphaelsousapereira.com.br/protocolo-auditoria-site-feito-por-agente.html",
+        "https://www.raphaelsousapereira.com.br/publicacoes.html",
+        "https://www.raphaelsousapereira.com.br/serie-cargos-2026/"
+      ]
+    },
+    {
+      "code": "LLMS_NO_SUMMARY",
+      "severity": "medium",
+      "dimension": "llms",
+      "message": "Sem resumo em blockquote (\"> ...\") após o H1",
+      "url": null,
+      "evidence": null
+    },
+    {
+      "code": "LLMS_LOW_COVERAGE",
+      "severity": "high",
+      "dimension": "llms",
+      "message": "llms.txt cobre 12% das URLs indexáveis do sitemap",
+      "url": null,
+      "evidence": {
+        "listed": 6,
+        "indexable": 52
+      }
+    },
+    {
+      "code": "LLMS_SLUG_TITLES",
+      "severity": "medium",
+      "dimension": "llms",
+      "message": "Títulos no formato de slug (rótulo pobre para LLMs)",
+      "url": null,
+      "evidence": [
+        "auditoria lgpd agencias marketing brasil 2026",
+        "engenheiro de ia ai engineer guia 2026 2027",
+        "agentes sites citacao ia tendencia"
+      ]
+    },
+    {
+      "code": "LLMS_NO_DESCRIPTIONS",
+      "severity": "low",
+      "dimension": "llms",
+      "message": "9/9 links sem descrição (\": nota\" após o link)",
+      "url": null,
+      "evidence": null
+    },
+    {
+      "code": "LLMS_DEFAULT_CONTENT",
+      "severity": "medium",
+      "dimension": "llms",
+      "message": "llms.txt lista conteúdo padrão",
+      "url": null,
+      "evidence": [
+        "https://raphaelsousapereira.com.br/hello-world/",
+        "https://raphaelsousapereira.com.br/category/uncategorized/"
+      ]
+    },
+    {
+      "code": "LLMS_FULL_MISSING",
+      "severity": "low",
+      "dimension": "llms",
+      "message": "llms-full.txt ausente (texto integral para agentes de documentação/pesquisa)",
+      "url": null,
+      "evidence": null
+    }
+  ],
+  "limitations": [
+    "Sem execução de JavaScript",
+    "Score é proxy técnico de descoberta, não de ranking/citação",
+    "llms.txt não é padrão oficial; crawlers de IA podem ignorá-lo",
+    "Órfãs calculadas só a partir das páginas checadas"
+  ]
+}
