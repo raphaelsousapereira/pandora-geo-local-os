@@ -24,7 +24,7 @@ Validação: motor de headings 1000/1000 (1 H1, 9 H2); JSON-LD válido; sem esto
 ## Decisões de honestidade
 
 - Nenhum campo vazio ou "PREENCHER" visível.
-- "c. 2013" é estimativa a partir dos "13 anos de escritório"; a parceria Simonetto "desde 2023" vem de "há mais de 3 anos".
+- "c. 2013" é estimativa a partir dos "13 anos de escritório"; a parceria Simonetto "desde 2023" vem de "há mais de 3 anos". Pela mesma regra, a parceria Elevato "desde 2021" vem de "há mais de 5 anos" (informado pelo usuário em 14/10/2026).
 - Registro CAU fica `pending` na base até ser conferido no Ache um Arquiteto (CAU/BR).
 - "Na mídia" começa sem itens: nenhum registro de imprensa verificável foi encontrado no site.
 
@@ -55,6 +55,8 @@ Entra na cronologia, em "Na mídia e palestras" (cartão com miniatura) e no JSO
 **BW Business Women:** a Verônica já fez parte da comunidade, mas hoje não faz mais (informado pelo usuário em 14/10/2026). Por isso o BW **não entra** em "Associações" nem em `memberOf`. A entrevista ao BW CAST (03/09/2025) continua como registro histórico de mídia. Se houver datas de entrada e saída, dá para registrar como associação passada (`OrganizationRole` com `startDate`/`endDate`), sem aparecer como vínculo atual.
 
 **Bios (14/10/2026):** as bios média e completa ganharam "trabalha com construção civil desde a adolescência" e o método "reforma sem dor de cabeça", ditos pela própria Verônica no BW CAST (03/09/2025, https://www.youtube.com/watch?v=8uTutUXiwHI). Inclusão aprovada pelo usuário em 14/10/2026. A bio curta ficou igual.
+
+**Elevato Pisos e Acabamentos (14/10/2026):** parceria declarada pelo usuário (status `declared`), com atendimento do gerente Igor Martins; citação do Igor autorizada ("são amigos"). Entrou na ficha ("Parcerias"), na cronologia, na bio completa e no JSON-LD (`Store` `#elevato`, que passa a ser o `publisher` do vídeo de 14/06/2023). **Pendente:** endereço completo da loja do Igor (a Elevato tem várias lojas) e confirmação do nome comercial. Assim que chegar, entra em `address` e na ficha.
 
 ## Artigos assinados
 
