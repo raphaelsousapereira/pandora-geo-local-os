@@ -5,3 +5,4 @@ __pycache__/
 *.sqlite3
 outputs/competitor-reports/
 !data/competitor.sqlite3
+!data/pressroom.sqlite3
