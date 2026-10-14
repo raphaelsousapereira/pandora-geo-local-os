@@ -37,10 +37,11 @@ Validação: motor de headings 1000/1000 (1 H1, 9 H2); JSON-LD válido; sem esto
 | 03/11/2025 | Arquitetura completa:do projeto à execução de obras residenciais e comerciais \| Veronica e Nei Fraga | Beatriz Santanna (entrevista) | https://youtu.be/1mG4sWdH1tA | verified (captura de tela enviada em 14/10/2026) |
 | 03/09/2025 | BW CAST - Com Verônica Fraga | Business Women BW (entrevista, 36min20s) | https://www.youtube.com/watch?v=8uTutUXiwHI | verified (capturas de tela enviadas em 14/10/2026); entrevistadora Jenifer Castro, CEO do BW Business Women (bwbusinesswomen.com.br) |
 | 14/06/2023 | Confira as dicas para um banheiro dos sonhos com a arquiteta Verônica Fraga | Elevato Pisos e Acabamentos (vídeo com marca) | https://youtu.be/VGxB4dfXNIw | verified (captura de tela enviada em 14/10/2026) |
+| 22/01/2026 | A História da Fraga & Santos: 12 Anos de Arquitetura de Alto Padrão, Desafios e Visão para 2026 | Fraga & Santos (entrevista ao Band Mulher, jornalista Regina Lima) | https://youtu.be/pPIFqIy39ZE | verified (captura de tela enviada em 14/10/2026) |
 | 17/04/2026 | Dopamine Decor em 2026: tendência ou exagero? Fraga & Santos com Regina Lima | Fraga & Santos Arquitetura Completa (entrevista a Regina Lima) | https://youtu.be/Q0VzfRoRSSs | verified (captura de tela enviada em 14/10/2026) |
 | 25/08/2026 | Como Funciona uma Obra Completa? Projeto, Execução e Gestão - Arq. Verônica Fraga - Fraga & Santos | BNI Mauá | https://youtu.be/mvNwtPoJkfM | verified (captura de tela enviada em 14/10/2026) |
 
-Entra na cronologia, em "Na mídia e palestras" (cartão com miniatura) e no JSON-LD como `VideoObject` com a Verônica em `actor`. Regina Lima: 1 entrevista registrada (17/04/2026); enviar as demais, se houver.
+Entra na cronologia, em "Na mídia e palestras" (cartão com miniatura) e no JSON-LD como `VideoObject` com a Verônica em `actor`. Regina Lima: 2 entrevistas registradas (22/01/2026, Band Mulher; 17/04/2026). Confirmar se a de 17/04/2026 também foi ao ar no Band Mulher; se sim, e com link da Band, registrar o veículo.
 
 **Canal próprio no YouTube:** a Fraga & Santos tem canal ("Fraga & Santos Arquitetura Completa"). Adicionar a URL do canal ao `sameAs` da organização no site e nesta página reforça a entidade.
 
