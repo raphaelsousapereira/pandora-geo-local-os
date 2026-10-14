@@ -1,0 +1,9 @@
+{
+  "primary": {"name": "Raphael Sousa Pereira — GEO IA", "url": "https://raphaelsousapereira.com.br/"},
+  "competitors": [
+    {"name": "Alexandre Caramaschi", "url": "https://alexandrecaramaschi.com/"},
+    {"name": "Brasil GEO", "url": "https://brasilgeo.ai/"}
+  ],
+  "max_pages": 60,
+  "delay_seconds": 1.0
+}
