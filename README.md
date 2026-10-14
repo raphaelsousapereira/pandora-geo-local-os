@@ -29,6 +29,7 @@ Leia o documento completo:
 | PANDORA SITEMAP & LLMS AUDIT Ω v1.0.0 | [`scripts/pandora_sitemap_audit.py`](scripts/pandora_sitemap_audit.py) | robots e bots de IA, sitemaps, saúde de URLs, links internos, llms.txt; gera llms.txt, llms-full.txt e Mapa do site ([documentação](docs/SITEMAP_AUDIT.md)) |
 | PANDORA COMPETITOR Ω v3.1.1 | [`scripts/pandora_competitor_omega.py`](scripts/pandora_competitor_omega.py) | Monitoramento semanal de concorrentes: mudanças, autoria declarada, sobreposição temática e histórico forense 30/60/90 dias ([documentação](docs/COMPETITOR_AUDIT.md)) |
 | PANDORA ADS Ω v1.0.0 | [`scripts/pandora_ads_omega.py`](scripts/pandora_ads_omega.py) | Auditoria forense de Google Ads (somente leitura): conversões, termos, negativas, qualidade, orçamento, lances, leilão, SEO × Ads e landing pages ([documentação](docs/ADS_OMEGA.md) · [base de conhecimento](docs/ADS_KNOWLEDGE.md)) |
+| PANDORA PRESS-SUITE Ω v1.1.0 | [`scripts/pandora_press/`](scripts/pandora_press/) | Sala de Imprensa auditável: cronologia citável, evidências com cadeia de hash, descoberta supervisionada, painel local e exportação HTML/JSON-LD ([documentação](docs/PRESS_SUITE.md)) |
 
 ```bash
 python scripts/pandora_heading_audit.py audit ./site --json report.json --md report.md
