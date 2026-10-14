@@ -30,6 +30,14 @@ Validação: motor de headings 1000/1000 (1 H1, 9 H2); JSON-LD válido; sem esto
 - Entrou: membro do **BNI POA Mauá (BNI Brasil) desde 2025, Coordenadora de Educação** — nas bios, na ficha ("Associações"), na cronologia, num tema de fonte e no JSON-LD (`memberOf` com `OrganizationRole`; perfil do BNI em `sameAs`). Status `declared`, com o perfil de membro e a página do grupo como evidência (não conferidos nesta coleta por bloqueio de rede).
 - **Não entrou: BNI Global Convention 2026** (Grimaldi Forum, Mônaco, 28–30/10/2026). As fontes mostram o evento, não a participação da Verônica. Se ela for, registrar como participação com confirmação (inscrição, foto ou publicação do BNI); depois do evento, entra na cronologia e em "Na mídia" se houver cobertura.
 
+## Vídeos e entrevistas
+
+| Data | Título | Canal | Link | Status |
+|---|---|---|---|---|
+| 25/08/2026 | Como Funciona uma Obra Completa? Projeto, Execução e Gestão - Arq. Verônica Fraga - Fraga & Santos | BNI Mauá | https://youtu.be/mvNwtPoJkfM | verified (captura de tela enviada em 14/10/2026) |
+
+Entra na cronologia, em "Na mídia e palestras" (cartão com miniatura) e no JSON-LD como `VideoObject` com a Verônica em `actor`. Entrevistas com Regina Lima: aguardando links, títulos e datas.
+
 ## Para completar (enviar quando houver)
 
 1. Matérias, entrevistas, palestras ou prêmios, cada um com link e data.
