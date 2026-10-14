@@ -39,7 +39,8 @@ def normalize(s):
 def classify(c):
     text=normalize(" ".join((c.get("title") or "",c.get("excerpt") or "",c.get("url") or "")))
     for kind,words in TAGS.items():
-        if any(normalize(w) in text for w in words):return kind
+        # palavra/expressão inteira: "doi" não pode casar dentro de "dois"
+        if any(re.search(r'(?<!\w)'+re.escape(normalize(w))+r'(?!\w)',text) for w in words):return kind
     return c.get("kind") or "other"
 def author_match(c,name,aliases=()):
     """Três estados: mention (nome completo encontrado), unknown (sem nome),

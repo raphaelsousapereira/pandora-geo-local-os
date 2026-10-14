@@ -51,6 +51,10 @@ class PressSuiteTests(unittest.TestCase):
             self.assertEqual(db.execute('SELECT kind FROM candidates').fetchone()[0], 'book')
             db.close()
 
+    def test_classify_whole_words(self):
+        self.assertEqual(discovery.classify({'title': 'Os dois lados da busca', 'excerpt': '', 'url': ''}), 'other')
+        self.assertEqual(discovery.classify({'title': 'Preprint com DOI', 'excerpt': '', 'url': ''}), 'paper')
+
     def test_www_variants_followed(self):
         with tempfile.TemporaryDirectory() as td:
             db = new_db(td)
