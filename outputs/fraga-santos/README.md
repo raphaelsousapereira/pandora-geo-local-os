@@ -49,6 +49,14 @@ Entra na cronologia, em "Na mídia e palestras" (cartão com miniatura) e no JSO
 
 **Consistência de nome:** o vídeo de 03/11/2025 chama o sócio de "Nei Fraga"; o site usa "Nei Fernando dos Santos". Para a entidade nas IAs, padronizar o nome nas descrições futuras (ou declarar o nome alternativo no JSON-LD do site com `alternateName`, se for de uso dele).
 
+## Artigos assinados
+
+| Data | Título | Veículo | Link | Status |
+|---|---|---|---|---|
+| 15/07/2026 | Obra sem ART ou RRT: O Risco Oculto na Gestão | Blog Síndicos de Valor (assinado "Por Veronica Fraga") | https://sindicosdevalor.com.br/blog-obra-sem-art.html | verified (capturas de tela enviadas em 14/10/2026; site bloqueado na rede do ambiente) |
+
+Entra na cronologia, em "Na mídia e palestras" (cartão só texto, classe `fsi-text`, sem miniatura de terceiros), num tema de fonte novo ("ART e RRT em obras de condomínio") e no JSON-LD como `Article` com a Verônica em `author`. A assinatura no site está sem acento ("Veronica"); o nome canônico continua "Verônica Fraga". Se possível, pedir ao Síndicos de Valor um link do nome da autora para https://arquitetoportoalegre.com.br/veronica-fraga/.
+
 ## Para completar (enviar quando houver)
 
 1. Matérias, entrevistas, palestras ou prêmios, cada um com link e data.
