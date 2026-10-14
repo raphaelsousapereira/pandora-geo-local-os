@@ -51,6 +51,8 @@ Entra na cronologia, em "Na mídia e palestras" (cartão com miniatura) e no JSO
 
 **BW Business Women:** a Verônica já fez parte da comunidade, mas hoje não faz mais (informado pelo usuário em 14/10/2026). Por isso o BW **não entra** em "Associações" nem em `memberOf`. A entrevista ao BW CAST (03/09/2025) continua como registro histórico de mídia. Se houver datas de entrada e saída, dá para registrar como associação passada (`OrganizationRole` com `startDate`/`endDate`), sem aparecer como vínculo atual.
 
+**Bios (14/10/2026):** as bios média e completa ganharam "trabalha com construção civil desde a adolescência" e o método "reforma sem dor de cabeça", ditos pela própria Verônica no BW CAST (03/09/2025, https://www.youtube.com/watch?v=8uTutUXiwHI). Inclusão aprovada pelo usuário em 14/10/2026. A bio curta ficou igual.
+
 ## Artigos assinados
 
 | Data | Título | Veículo | Link | Status |
