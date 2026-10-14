@@ -60,6 +60,14 @@ Entra na cronologia, em "Na mídia e palestras" (cartão com miniatura) e no JSO
 
 **Auditoria "projetos comerciais" (14/10/2026):** antes desta revisão, a narrativa da página era só residencial. A única fonte pública com obras comerciais era o título da entrevista a Beatriz Santanna (03/11/2025: "obras residenciais e comerciais"). O usuário confirmou que a Verônica faz projetos comerciais. Mudou: resposta direta, bio média, bio completa, tema "Reformas residenciais e comerciais", tema de interiores ("quem mora ou trabalha no espaço") e `knowsAbout` ("Projetos comerciais"). A bio curta não cita áreas e ficou igual. **Lacuna fora desta página:** a página profissional /veronica-fraga/, o canal do YouTube e o resto do site falam só de residencial. Para a IA e o Google confirmarem a narrativa, o site precisa de pelo menos uma página ou caso de projeto comercial (tipo de espaço, bairro, escopo, fotos), e a página profissional deve citar "projetos comerciais" nas áreas de atuação.
 
+## Matérias na imprensa
+
+| Data | Título | Veículo | Link | Status |
+|---|---|---|---|---|
+| 31/10/2025 | Verônica Fraga: A arquiteta que constrói lares que curam | Ego Notícias (Arte e Cultura), por Ranai Lima | https://egonoticias.com/veronica-fraga-a-arquiteta-que-constroi-lares-que-curam/ | verified (captura de tela enviada em 14/10/2026; site bloqueado na rede do ambiente) |
+
+Entra na cronologia, em "Na mídia e palestras" (cartão só texto) e no JSON-LD como `NewsArticle` com a Verônica em `about`. Notas: (1) o slogan do portal ("Você é notícia, nós publicamos") e a foto "Divulgação/acervo pessoal" sugerem conteúdo enviado ou pago; continua válido como registro, mas pesa menos que entrevista de TV ou artigo assinado. (2) O título fala em "lares que curam" e a linha fina em "neurociência e espiritualidade": é o enquadramento do veículo. A sala cita o título como está, mas mantém "sem promessas clínicas" na fala própria da Verônica. A linha fina e a matéria não citam projetos comerciais (pelo que aparece na captura).
+
 ## Artigos assinados
 
 | Data | Título | Veículo | Link | Status |
