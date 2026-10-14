@@ -6,3 +6,4 @@ __pycache__/
 outputs/competitor-reports/
 !data/competitor.sqlite3
 !data/pressroom.sqlite3
+!data/pressroom-fraga.sqlite3
