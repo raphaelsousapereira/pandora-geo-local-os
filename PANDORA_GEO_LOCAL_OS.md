@@ -168,6 +168,7 @@ Estrutura recomendada:
     validate_annotations.py
     pandora_heading_audit.py        # motor H1/H2/H3 (implementado — docs/HEADING_AUDIT.md)
     pandora_sitemap_audit.py        # motor robots/sitemap/llms.txt (implementado — docs/SITEMAP_AUDIT.md)
+    pandora_competitor_omega.py     # motor de concorrentes (implementado — docs/COMPETITOR_AUDIT.md)
 
   /outputs/
     /weekly-reports/
