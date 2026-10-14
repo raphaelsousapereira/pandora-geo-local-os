@@ -1,0 +1,4 @@
+Palavra-chave,Tipo de correspondência,Campanha,Grupo de anúncios,Índice de qualidade,CTR esperada,Relevância do anúncio,Experiência na página de destino,Impr.,Custo,Conversões,URL final
+advogado trabalhista,Exata,Advogado Trabalhista,Trabalhista,8,Acima da média,Acima da média,Média,"5.000","700,00",20,https://ex.com/trabalhista
+processo trabalhista,Frase,Advogado Trabalhista,Trabalhista,4,Abaixo da média,Abaixo da média,Média,"6.000","800,00",10,https://ex.com/trabalhista
+escritório de advocacia,Ampla,Institucional,Geral,3,Abaixo da média,Média,Abaixo da média,"8.000","1.200,00",3,https://ex.com/

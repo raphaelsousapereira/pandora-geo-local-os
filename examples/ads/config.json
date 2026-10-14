@@ -1,0 +1,22 @@
+{
+  "account_name": "Exemplo — Escritório de advocacia (dados fictícios)",
+  "period": "set/2026",
+  "currency": "R$",
+  "business_type": "leadgen",
+  "target_cpa": 60,
+  "monthly_conversion_goal": 80,
+  "crm_conversions_month": 20,
+  "sales_cycle_days": 30,
+  "own_domain": "você",
+  "allow_terms": [],
+  "max_landing_pages": 50,
+  "sources": {
+    "campaigns": "campanhas.csv",
+    "keywords": "palavras-chave.csv",
+    "search_terms": "termos-de-pesquisa.csv",
+    "negatives": "negativas.csv",
+    "conversions": "conversoes.csv",
+    "auction": "leilao.csv",
+    "search_console": "search-console.csv"
+  }
+}
