@@ -25,6 +25,11 @@ Validação: motor de headings 1000/1000 (1 H1, 9 H2); JSON-LD válido; sem esto
 - Registro CAU fica `pending` na base até ser conferido no Ache um Arquiteto (CAU/BR).
 - "Na mídia" começa sem itens: nenhum registro de imprensa verificável foi encontrado no site.
 
+## BNI (incluído em 14/10/2026)
+
+- Entrou: membro do **BNI POA Mauá (BNI Brasil) desde 2025, Coordenadora de Educação** — nas bios, na ficha ("Associações"), na cronologia, num tema de fonte e no JSON-LD (`memberOf` com `OrganizationRole`; perfil do BNI em `sameAs`). Status `declared`, com o perfil de membro e a página do grupo como evidência (não conferidos nesta coleta por bloqueio de rede).
+- **Não entrou: BNI Global Convention 2026** (Grimaldi Forum, Mônaco, 28–30/10/2026). As fontes mostram o evento, não a participação da Verônica. Se ela for, registrar como participação com confirmação (inscrição, foto ou publicação do BNI); depois do evento, entra na cronologia e em "Na mídia" se houver cobertura.
+
 ## Para completar (enviar quando houver)
 
 1. Matérias, entrevistas, palestras ou prêmios, cada um com link e data.
