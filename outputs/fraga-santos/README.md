@@ -10,6 +10,9 @@ Gerada com o PANDORA PRESS-SUITE Ω em 14/10/2026 a partir das páginas oficiais
 | `records.jsonld` | Registros da suíte em JSON-LD (referência; o JSON-LD publicado está dentro do HTML) |
 | `../../data/pressroom-fraga.sqlite3` | Base da suíte: autora, 4 registros, 6 evidências, histórico com cadeia de hash verificada |
 
+**Prévia no celular:** abra `sala-de-imprensa-previa.html`. O `sala-de-imprensa.html` é só o bloco que vai para o WordPress e não declara charset, porque o tema já declara UTF-8. Aberto sozinho, o navegador lê em Latin-1 e os acentos quebram ("VerÃ´nica"); no site isso não acontece. Depois de editar o bloco, regenerar a prévia com:
+`python3 scripts/pandora_block_preview.py outputs/fraga-santos/sala-de-imprensa.html outputs/fraga-santos/sala-de-imprensa-previa.html "Sala de Imprensa de Verônica Fraga | Fraga & Santos"`
+
 ## O que a página contém
 
 Resposta direta citável · biografias curta/média/completa com botão de copiar · ficha verificável (CAU, CNPJ, endereço, redes) · 6 temas em que a Verônica pode ser fonte · números do escritório (rotulados como informados pelo escritório) · cronologia · seção "Na mídia" que só aceita registros com link · foto oficial com crédito · contato para jornalistas.
