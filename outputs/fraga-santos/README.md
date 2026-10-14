@@ -35,6 +35,7 @@ Validação: motor de headings 1000/1000 (1 H1, 9 H2); JSON-LD válido; sem esto
 | Data | Título | Canal | Link | Status |
 |---|---|---|---|---|
 | 03/11/2025 | Arquitetura completa:do projeto à execução de obras residenciais e comerciais \| Veronica e Nei Fraga | Beatriz Santanna (entrevista) | https://youtu.be/1mG4sWdH1tA | verified (captura de tela enviada em 14/10/2026) |
+| 03/09/2025 | BW CAST - Com Verônica Fraga | Business Women BW (entrevista, 36min20s) | https://www.youtube.com/watch?v=8uTutUXiwHI | verified (capturas de tela enviadas em 14/10/2026); nome da apresentadora a confirmar |
 | 25/08/2026 | Como Funciona uma Obra Completa? Projeto, Execução e Gestão - Arq. Verônica Fraga - Fraga & Santos | BNI Mauá | https://youtu.be/mvNwtPoJkfM | verified (captura de tela enviada em 14/10/2026) |
 
 Entra na cronologia, em "Na mídia e palestras" (cartão com miniatura) e no JSON-LD como `VideoObject` com a Verônica em `actor`. Entrevistas com Regina Lima: aguardando links, títulos e datas.
