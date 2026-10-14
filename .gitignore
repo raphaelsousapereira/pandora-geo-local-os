@@ -4,3 +4,4 @@ __pycache__/
 .pandora-*
 *.sqlite3
 outputs/competitor-reports/
+!data/competitor.sqlite3

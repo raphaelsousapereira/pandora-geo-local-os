@@ -26,7 +26,16 @@ python scripts/pandora_competitor_omega.py scan --config config/competitors.json
 # opcionais: --embedding-model <modelo sentence-transformers>  --pdf
 ```
 
-A primeira execução cria a linha de base; mudanças aparecem a partir da segunda. O histórico vive no SQLite (`--db`): para a varredura semanal acumular histórico, o banco precisa persistir entre execuções.
+A primeira execução cria a linha de base; mudanças aparecem a partir da segunda. O histórico vive no SQLite (`--db`).
+
+### Rotina mensal
+
+A análise de concorrentes roda **a cada 30 dias** (dia 1 de cada mês) e versiona o banco em `data/competitor.sqlite3`, mantendo só os 4 snapshots mais recentes por domínio (suficiente para as janelas de 30/60/90 dias):
+
+```bash
+python scripts/pandora_competitor_omega.py scan --config config/competitors.json \
+  --db data/competitor.sqlite3 --out outputs/competitor-reports/AAAA-MM --keep-snapshots 4
+```
 
 ## Relação com os outros motores
 

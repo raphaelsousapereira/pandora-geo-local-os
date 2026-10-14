@@ -625,7 +625,27 @@ def selftest_v31():
     assert content_hash(a)==content_hash(b)
     assert compare_snapshots({'u':dict(a,hash=content_hash(a))},{'u':dict(b,hash=content_hash(b))})==[]
     assert same_site('www.e.org','e.org') and same_site('E.org','www.e.org') and not same_site('x.org','e.org')
-    print('V3.1.1 SELFTEST PASS: valueless attributes, content hash, www variants')
+    with TemporaryDirectory() as tmp:
+        db=Path(tmp)/'p.db';conn=sqlite3.connect(db)
+        conn.execute('CREATE TABLE snapshots(domain TEXT,stamp TEXT,payload TEXT,PRIMARY KEY(domain,stamp))')
+        conn.executemany('INSERT INTO snapshots VALUES(?,?,?)',[('e.org',f'2026100{i}T000000000000Z','{}') for i in range(1,7)])
+        conn.commit();conn.close()
+        assert prune(str(db),4)==2
+        assert [r[0] for r in sqlite3.connect(db).execute('SELECT stamp FROM snapshots ORDER BY stamp')][0]=='20261003T000000000000Z'
+    print('V3.1.1 SELFTEST PASS: valueless attributes, content hash, www variants, prune')
+
+def prune(db,keep):
+    """Mantém só os `keep` snapshots mais recentes por domínio (histórico versionável no repositório)."""
+    conn=sqlite3.connect(db)
+    try:
+        removed=0
+        for (domain,) in conn.execute('SELECT DISTINCT domain FROM snapshots').fetchall():
+            old=conn.execute('SELECT stamp FROM snapshots WHERE domain=? ORDER BY stamp DESC LIMIT -1 OFFSET ?',(domain,keep)).fetchall()
+            removed+=len(old)
+            conn.executemany('DELETE FROM snapshots WHERE domain=? AND stamp=?',[(domain,s) for (s,) in old])
+        conn.commit();conn.execute('VACUUM')
+    finally:conn.close()
+    return removed
 
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
@@ -635,6 +655,7 @@ def main():
     ap.add_argument('--out',default='reports')
     ap.add_argument('--embedding-model',default=None)
     ap.add_argument('--pdf',action='store_true')
+    ap.add_argument('--keep-snapshots',type=int,default=0,help='Após o scan, manter só os N snapshots mais recentes por domínio (0 = todos)')
     args=ap.parse_args()
     if args.command=='selftest':selftest_v31();return
     if args.command=='init':
@@ -647,6 +668,8 @@ def main():
     try:
         cfg=json.loads(Path(args.config).read_text(encoding='utf-8'))
         scan(cfg,args.db,args.out,args.embedding_model,args.pdf)
+        if args.keep_snapshots>0:
+            print(json.dumps({'pruned_snapshots':prune(args.db,args.keep_snapshots)}),file=sys.stderr)
     except (OSError,ValueError,KeyError) as exc:
         raise SystemExit(f'ERRO: {exc}')
 if __name__=='__main__':main()
