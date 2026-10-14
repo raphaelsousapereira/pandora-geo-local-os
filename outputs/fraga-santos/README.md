@@ -34,9 +34,12 @@ Validação: motor de headings 1000/1000 (1 H1, 9 H2); JSON-LD válido; sem esto
 
 | Data | Título | Canal | Link | Status |
 |---|---|---|---|---|
+| 03/11/2025 | Arquitetura completa:do projeto à execução de obras residenciais e comerciais \| Veronica e Nei Fraga | Beatriz Santanna (entrevista) | https://youtu.be/1mG4sWdH1tA | verified (captura de tela enviada em 14/10/2026) |
 | 25/08/2026 | Como Funciona uma Obra Completa? Projeto, Execução e Gestão - Arq. Verônica Fraga - Fraga & Santos | BNI Mauá | https://youtu.be/mvNwtPoJkfM | verified (captura de tela enviada em 14/10/2026) |
 
 Entra na cronologia, em "Na mídia e palestras" (cartão com miniatura) e no JSON-LD como `VideoObject` com a Verônica em `actor`. Entrevistas com Regina Lima: aguardando links, títulos e datas.
+
+**Consistência de nome:** o vídeo de 03/11/2025 chama o sócio de "Nei Fraga"; o site usa "Nei Fernando dos Santos". Para a entidade nas IAs, padronizar o nome nas descrições futuras (ou declarar o nome alternativo no JSON-LD do site com `alternateName`, se for de uso dele).
 
 ## Para completar (enviar quando houver)
 
