@@ -1,0 +1,32 @@
+name: PANDORA GEO Local CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: geo-local-ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  engine-regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Verificar sintaxe dos motores e testes
+        run: python -m compileall -q scripts tests
+      - name: Testar GEO Local OS sem alvos externos
+        run: python -m unittest discover -s tests -v
