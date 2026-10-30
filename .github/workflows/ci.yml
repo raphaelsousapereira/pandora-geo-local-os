@@ -26,6 +26,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python }}
+      - name: Instalar dependência de exportação PDF para o selftest
+        run: python -m pip install reportlab
       - name: Verificar sintaxe dos motores e testes
         run: python -m compileall -q scripts tests
       - name: Testar GEO Local OS sem alvos externos
