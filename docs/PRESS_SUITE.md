@@ -32,6 +32,7 @@ python scripts/pandora_press_suite.py press --db press.sqlite3 export --author <
 - Toda alteração de registro e toda evidência entram numa cadeia de hash verificável.
 - Coleta só em hosts públicos (validação de DNS, sem credenciais na URL, portas 80/443, sem seguir redirecionamentos).
 - Exportações públicas (HTML/JSON-LD) excluem `conflicted` e `retracted`; `--only-verified` publica só `verified`/`corrected`.
+- No JSON-LD, palestras, eventos e workshops exportam `event_date` como `startDate` quando informada; `publication_date` permanece em `datePublished`.
 
 ## Correções aplicadas na integração (1.0.0 → 1.1.0)
 

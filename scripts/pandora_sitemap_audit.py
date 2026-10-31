@@ -651,12 +651,14 @@ class Audit:
                 not (name == 'robots' and any(i['code'] == 'ROBOTS_NOT_CAPTURED' for i in self.issues))
             dims[name] = {'score': max(0, maxi - loss) if measured else None, 'max': maxi,
                           'deductions': min(maxi, loss), 'measured': measured}
-        # saúde de URLs: proporcional às páginas checadas
-        checked = [p for p in pages.values() if p['captured'] and p['status'] is not None]
+        # Tentativas que falharam são medidas; ausências no snapshot não são.
+        checked = [p for p in pages.values() if p['captured']]
         if self.check_urls and checked:
             n = len(checked)
             def share(code): return len({i['url'] for i in self.issues if i['code'] == code}) / n
-            loss = (share('URL_ERROR_STATUS') * 150 + share('URL_FETCH_ERROR') * 150 +
+            unavailable = {i['url'] for i in self.issues
+                           if i['code'] in ('URL_ERROR_STATUS', 'URL_FETCH_ERROR')}
+            loss = (len(unavailable) / n * 250 +
                     share('SITEMAP_URL_REDIRECTS') * 60 + share('NOINDEX_IN_SITEMAP') * 120 +
                     share('CANONICAL_MISMATCH') * 80 + share('NESTED_HTML_DOCUMENT') * 50 +
                     share('HEAVY_HTML') * 60 + share('MISSING_TITLE') * 60 + share('TITLE_SLUG_LIKE') * 40 +

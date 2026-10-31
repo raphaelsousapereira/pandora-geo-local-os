@@ -33,6 +33,9 @@ Motor do ecossistema **PANDORA GEO LOCAL OS** que audita como um site é descobe
 | linking | 100 |
 
 Dimensões não medidas (ex.: arquivo não capturado no snapshot) ficam fora da média em vez de zerar o score.
+Tentativas de acesso que falham (`URL_FETCH_ERROR`) entram nas páginas checadas, mesmo sem status HTTP.
+Falhas de acesso e status 4xx/5xx descontam proporcionalmente até os 250 pontos de `url_health`;
+com todas as páginas indisponíveis, `verify --min-score 800` reprova. URLs ausentes do snapshot continuam não medidas.
 
 ## Comandos
 

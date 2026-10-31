@@ -83,6 +83,29 @@ class PressSuiteTests(unittest.TestCase):
             self.assertEqual(only, ['Palestra'])
             db.close()
 
+    def test_jsonld_exports_start_date_for_all_event_kinds(self):
+        db = press.connect(':memory:')
+        try:
+            with db:
+                db.execute('INSERT INTO authors VALUES (?,?,?,?,?)',
+                           ('a', 'Maria Silva', SITE, '', press.now()))
+                for kind in ('talk', 'event', 'workshop', 'article'):
+                    press.save(db, 'a', {'title': kind, 'kind': kind, 'event_date': '2026-05-10',
+                                        'publication_date': '2026-05-01', 'status': 'verified'})
+                press.save(db, 'a', {'title': 'Sem data', 'kind': 'workshop'})
+            items = {item['name']: item for item in press.jsonld(db, 'a')['@graph'][1:]}
+            for kind in ('talk', 'event', 'workshop'):
+                with self.subTest(kind=kind):
+                    self.assertEqual(items[kind]['@type'], 'Event')
+                    self.assertEqual(items[kind].get('startDate'), '2026-05-10')
+                    self.assertEqual(items[kind]['datePublished'], '2026-05-01')
+                    self.assertIn('performer', items[kind])
+                    self.assertNotIn('creator', items[kind])
+            self.assertNotIn('startDate', items['article'])
+            self.assertNotIn('startDate', items['Sem data'])
+        finally:
+            db.close()
+
     def test_console_rejects_foreign_host(self):
         with tempfile.TemporaryDirectory() as td:
             db = new_db(td); db.close()

@@ -44,6 +44,9 @@ python -m unittest discover tests
 
 ## Score (0–1000)
 
+Elementos void (`input`, `img`, `br`, etc.) não abrem escopo no parser, com ou sem `/>`.
+Um `<input hidden>` não oculta headings seguintes; containers ocultos continuam transmitindo sua visibilidade aos descendentes.
+
 | Dimensão | Máx. | Exemplos de deduções |
 |---|---|---|
 | presence | 250 | MISSING_H1, NO_HEADINGS, MULTIPLE_H1, FIRST_NOT_H1 |
