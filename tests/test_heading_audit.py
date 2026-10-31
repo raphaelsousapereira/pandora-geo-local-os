@@ -30,6 +30,35 @@ class HeadingAuditTests(unittest.TestCase):
         self.assertIn('MISSING_H1', codes)
         self.assertLess(r['score'], 1000)
 
+    def test_void_elements_do_not_hide_following_headings(self):
+        for parser_type in (engine.HeadingParser, engine.Inspector):
+            for tag in sorted(engine.VOID_ELEMENTS):
+                for ending in ('>', '/>'):
+                    with self.subTest(parser=parser_type.__name__, tag=tag, ending=ending):
+                        parser = parser_type()
+                        parser.feed('<main><' + tag + ' hidden id="void"' + ending +
+                                    '<h1>Título <br>visível</h1><h2>Seção</h2></main>')
+                        parser.close()
+                        self.assertEqual([h['hidden'] for h in parser.headings], [False, False])
+                        self.assertEqual([h['parent'] for h in parser.headings], ['main', 'main'])
+                        self.assertTrue(all(h['in_main'] for h in parser.headings))
+                        self.assertEqual(parser.ids['void'], 1)
+                        self.assertEqual(parser.stack, [])
+                        if parser_type is engine.HeadingParser:
+                            parser.finish()
+                            self.assertEqual(parser.headings[0]['text'], 'Título visível')
+
+    def test_hidden_container_still_hides_headings_after_void(self):
+        parser = engine.HeadingParser()
+        parser.feed('<main><div hidden><input><h1>Oculto</h1></div>'
+                    '<input hidden><h2>Visível</h2></main>')
+        parser.close()
+        parser.finish()
+        self.assertEqual([h['hidden'] for h in parser.headings], [True, False])
+        report = engine.analyze('x', '<html lang="pt-BR"><title>Clínica</title><main>'
+                               '<input hidden><h1>Clínica</h1><h2>Serviços</h2></main></html>')
+        self.assertEqual(report['score'], 1000)
+
     def test_audit_cli_writes_reports(self):
         with tempfile.TemporaryDirectory() as d:
             site = Path(d) / 'site'

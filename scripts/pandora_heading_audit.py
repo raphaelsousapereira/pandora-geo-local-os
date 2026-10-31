@@ -48,6 +48,8 @@ SPACE = re.compile(r'\s+')
 TAG = re.compile(r'<\s*(/?)\s*(h[123])\b', re.I)
 SIMPLE_EMPTY = re.compile(r'<(?P<tag>h[123])\s*>\s*</(?P=tag)\s*>', re.I)
 COMMENT = re.compile(r'<!--.*?-->', re.S)
+VOID_ELEMENTS = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input',
+                 'link', 'meta', 'param', 'source', 'track', 'wbr'}
 
 @dataclass
 class Issue:
@@ -82,6 +84,7 @@ class Inspector(HTMLParser):
         a = dict(attrs)
         if tag == 'html': self.lang = a.get('lang')
         if a.get('id'): self.ids[a['id']] += 1
+        if tag in VOID_ELEMENTS: return
         if tag == 'title': self.in_title += 1
         if tag in ('script','style','template','noscript'): self._ignore += 1
         hidden = ('hidden' in a or str(a.get('aria-hidden','')).lower() == 'true'
@@ -111,6 +114,7 @@ class Inspector(HTMLParser):
 
     def handle_endtag(self, tag):
         tag = tag.lower()
+        if tag in VOID_ELEMENTS: return
         if tag == 'title': self.in_title = max(0,self.in_title-1)
         if tag in ('script','style','template','noscript'): self._ignore = max(0,self._ignore-1)
         if tag == 'main': self.main_depth = max(0,self.main_depth-1)
@@ -167,6 +171,7 @@ class HeadingParser(HTMLParser):
         tag = tag.lower(); a = dict(attrs)
         if tag == 'html': self.lang = a.get('lang')
         if a.get('id'): self.ids[a['id']] += 1
+        if tag in VOID_ELEMENTS: return
         if tag == 'title': self.in_title = True
         if tag in ('script','style','template','noscript'): self.ignore.append(tag)
         if tag == 'main': self.main += 1; self.main_count += 1
@@ -184,6 +189,7 @@ class HeadingParser(HTMLParser):
         self.handle_starttag(tag,attrs); self.handle_endtag(tag)
     def handle_endtag(self,tag):
         tag = tag.lower()
+        if tag in VOID_ELEMENTS: return
         if tag == 'title': self.in_title = False
         if tag in self.ignore: self.ignore.remove(tag)
         if tag == 'main': self.main = max(0,self.main-1)

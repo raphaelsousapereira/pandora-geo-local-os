@@ -166,7 +166,7 @@ def jsonld(db,author_id,statuses=PUBLIC_STATUSES):
         item={'@type':KINDS[r['kind']],'@id':rid,'name':r['title'],role:{'@id':person['@id']}}
         if r['summary']: item['description']=r['summary']
         if r['publication_date']: item['datePublished']=r['publication_date']
-        if r['event_date'] and r['kind'] in ('talk','event'): item['startDate']=r['event_date']
+        if r['event_date'] and KINDS[r['kind']]=='Event': item['startDate']=r['event_date']
         if r['url']: item['url']=r['url']
         if r['identifier']: item['identifier']=r['identifier']
         if r['publisher']: item['publisher']={'@type':'Organization','name':r['publisher']}

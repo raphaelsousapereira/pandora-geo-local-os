@@ -423,12 +423,19 @@ class AdsAudit:
         if not negs or not kws: return
         conflicts = []
         for n in negs:
+            level = fold(n.get('level', '')).replace('_', ' ')
+            account_level = level in ('account', 'conta', 'account level', 'nivel de conta')
+            campaign_level = level in ('campaign', 'campanha', 'campaign level', 'nivel de campanha')
+            group_level = ('grupo' in level or 'ad group' in level or 'adgroup' in level or
+                           (bool(n.get('ad_group')) and not account_level and not campaign_level))
             for k in kws:
                 if negative_blocks(n.get('negative', ''), n.get('match_type', ''), k.get('keyword', '')):
-                    same_scope = not n.get('campaign') or not k.get('campaign') or n.get('campaign') == k.get('campaign')
+                    same_scope = account_level or not n.get('campaign') or n.get('campaign') == k.get('campaign')
+                    if group_level:
+                        same_scope = same_scope and bool(n.get('ad_group')) and n.get('ad_group') == k.get('ad_group')
                     if same_scope:
                         conflicts.append({'negative': n.get('negative'), 'match': n.get('match_type'), 'blocks_keyword': k.get('keyword'),
-                                          'campaign': k.get('campaign')})
+                                          'campaign': k.get('campaign'), 'ad_group': k.get('ad_group')})
         if conflicts:
             self.add('NEGATIVAS', 'NEGATIVE_BLOCKS_KEYWORD', 'ALTO', f'{len(conflicts)} negativas bloqueiam palavras-chave ativas',
                      'A negativa impede que a própria palavra-chave seja exibida.',
@@ -539,8 +546,9 @@ class AdsAudit:
         rows = self.data['auction']
         if 'auction' in self.not_measured or not rows: return
         own_domain = fold(self.cfg.get('own_domain', ''))
-        own = next((r for r in rows if own_domain and own_domain in fold(r.get('domain', ''))) or
-                   (r for r in rows if fold(r.get('domain', '')) in ('voce', 'you', 'sua conta')), None)
+        own = next((r for r in rows if own_domain and own_domain in fold(r.get('domain', ''))), None)
+        if own is None:
+            own = next((r for r in rows if fold(r.get('domain', '')) in ('voce', 'you', 'sua conta')), None)
         own_is = parse_pct(own.get('impression_share')) if own else None
         threats = []
         for r in rows:

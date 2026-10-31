@@ -33,12 +33,17 @@ Em cada relatório da interface, ajuste o período, inclua as colunas abaixo e u
 | `campaigns` | Campanhas | Campanha, Status, Orçamento, Tipo de estratégia de lances, Impr., Cliques, Custo, Conversões, Parcela de impressões de pesquisa perdidas (orçamento) |
 | `keywords` | Palavras-chave de pesquisa | Palavra-chave, Tipo de correspondência, Campanha, Grupo de anúncios, Índice de qualidade, CTR esperada, Relevância do anúncio, Experiência na página de destino, Impr., Custo, Conversões, URL final |
 | `search_terms` | Termos de pesquisa | Termo de pesquisa, Palavra-chave, Campanha, Impr., Cliques, Custo, Conversões |
-| `negatives` | Palavras-chave negativas | Palavra-chave negativa, Tipo de correspondência, Campanha |
+| `negatives` | Palavras-chave negativas | Palavra-chave negativa, Tipo de correspondência, Campanha, Grupo de anúncios, Nível |
 | `conversions` | Metas → Conversões | Ação de conversão, Origem, Contagem, Janela de conversão de clique, Incluir em "Conversões" |
 | `auction` | Informações do leilão | Domínio de exibição do URL, Parcela de impressões, Taxa de sobreposição, Taxa de posição acima, Parcela de superação |
 | `search_console` | Search Console → Desempenho → Consultas | Consultas principais, Cliques, Impressões, CTR, Posição |
 
 Qualquer arquivo pode faltar: a engrenagem correspondente fica "não medida".
+Conflitos de negativas respeitam o nível (`Account`/`Conta`, `Campaign`/`Campanha`, `Ad group`/`Grupo de anúncios`).
+Sem nível explícito, um grupo preenchido restringe a comparação à mesma campanha e ao mesmo grupo;
+sem grupo, aplica-se o escopo de campanha (ou global quando também não há campanha).
+No leilão, `own_domain` identifica prioritariamente o domínio ou nome da própria conta;
+se não houver correspondência, o motor procura `Você`, `You` ou `Sua conta` antes de comparar concorrentes.
 
 ## Configuração
 
